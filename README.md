@@ -49,17 +49,30 @@ Both variants aim to reduce fatigue while keeping code readable and environments
 ```json
 {
   "workbench.colorTheme": "Harmonia Dark",
-  "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 22,
-  "editor.cursorBlinking": "smooth",
-  "editor.renderWhitespace": "boundary",
+  "editor.fontFamily": "'Monaspace Argon', 'Fira Code', 'MonoLisa', 'JetBrains Mono', 'DejaVu Sans Code', 'monospace'",
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'cv01' 2, 'liga'",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 0,
+  "editor.cursorBlinking": true,
+  "editor.renderWhitespace": "none",
   "editor.minimap.enabled": false,
-  "terminal.integrated.fontFamily": "'Fira Code', 'Courier New', monospace",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 1.2
+  "terminal.integrated.fontFamily": "'Fira Code', monospace",
+  "terminal.integrated.fontSize": 16
 }
 ```
+
+## 🔤 Recommended Fonts
+
+Harmonia pairs well with the following fonts — chosen for their clarity, legibility, and comfort during long coding sessions:
+
+| Font               | Link |
+|--------------------|------|
+| **Monaspace Argon** | [monaspace.githubnext.com](https://monaspace.githubnext.com/) |
+| **Fira Code**       | [github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode) |
+| **MonoLisa**        | [monolisa.dev](https://www.monolisa.dev/) *(the free version is enough)* |
+| **JetBrains Mono**  | [jetbrains.com/lp/mono](https://www.jetbrains.com/lp/mono/) |
+| **DejaVu Sans Code** | [dejavu-fonts.github.io](https://dejavu-fonts.github.io/) |
+| **monospace**       | *(System fallback — no installation needed)* |
 
 ---
 
@@ -68,8 +81,7 @@ Both variants aim to reduce fatigue while keeping code readable and environments
 Harmonia is released under the [MIT License](LICENSE.txt).
 Feel free to use, modify, and distribute it as you wish.
 
----
 
-Feedback and suggestions are always welcome!
+> Feedback and suggestions are always welcome!
 This is a personal spare-time project I built for my own use, and I’m sharing it in case others find it helpful.
 While all input is appreciated, updates or feature requests are not guaranteed.
