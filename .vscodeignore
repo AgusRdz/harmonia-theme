@@ -1,0 +1,10 @@
+# Ignore everything
+**
+
+# Except the required files
+!package.json
+!readme.md
+!LICENSE.txt
+!icon.png
+!themes/
+!CHANGELOG.md

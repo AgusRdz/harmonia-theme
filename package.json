@@ -1,13 +1,13 @@
 {
   "name": "harmonia-theme",
   "displayName": "Harmonia Theme",
-  "description": "A dark VS Code theme with a harmonious color palette.",
+  "description": "A subtle, carefully crafted theme to reduce visual noise while coding.",
   "publisher": "AgusRdz",
   "repository": {
     "type": "git",
     "url": "https://github.com/AgusRdz/harmonia-theme"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -28,7 +28,15 @@
         "label": "Harmonia Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/harmonia-dark-color-theme.json"
+      },
+      {
+        "label": "Harmonia Light",
+        "uiTheme": "vs",
+        "path": "./themes/harmonia-light-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
   }
 }
