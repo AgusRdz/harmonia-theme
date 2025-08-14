@@ -35,10 +35,10 @@ Harmonia was created to support developers who value:
 - Structure: `#5a5f7a` for dividers, quotes, and spacing
 
 ### Harmonia Light
-- `#e6e8eb` - light, muted background (never pure white)
-- `#2e3440` - rich but readable foreground text
-- Accents: `#a454cb`, `#7ebf87`, `#6eaadb` - pleasant without harshness
-- Structure: `#b4b8c2` and `#cdd0d5` for subtle grid and guides
+- `#eceef1` - soft, light background (never pure white)
+- `#2d2d2d` - clean, readable foreground text
+- Accents: `#c574dd`, `#86c591`, `#83bde7` - elegant without harshness
+- Structure: `#c1c1c1` and `#c3c7ce` for subtle grid, guides, and dividers
 
 Both variants aim to reduce fatigue while keeping code readable and environments beautiful.
 
@@ -63,7 +63,7 @@ Both variants aim to reduce fatigue while keeping code readable and environments
 
 ## 🔤 Recommended Fonts
 
-Harmonia pairs well with the following fonts — chosen for their clarity, legibility, and comfort during long coding sessions:
+Harmonia pairs well with the following fonts - chosen for their clarity, legibility, and comfort during long coding sessions:
 
 | Font               | Link |
 |--------------------|------|
@@ -72,7 +72,7 @@ Harmonia pairs well with the following fonts — chosen for their clarity, legib
 | **MonoLisa**        | [monolisa.dev](https://www.monolisa.dev/) *(the free version is enough)* |
 | **JetBrains Mono**  | [jetbrains.com/lp/mono](https://www.jetbrains.com/lp/mono/) |
 | **DejaVu Sans Code** | [dejavu-fonts.github.io](https://dejavu-fonts.github.io/) |
-| **monospace**       | *(System fallback — no installation needed)* |
+| **monospace**       | *(System fallback - no installation needed)* |
 
 ---
 
