@@ -176,6 +176,76 @@
       "settings": {
         "foreground": "#a3d9a5"
       }
+    },
+    {
+      "scope": [
+        "text.html.basic",
+        "text.html.derivative"
+      ],
+      "settings": {
+        "foreground": "#d0d0e0"
+      }
+    },
+    {
+      "name": "HTML Tag Name",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag",
+        "support.class.component.html"
+      ],
+      "settings": {
+        "foreground": "#dcbfa8"
+      }
+    },
+    {
+      "name": "HTML Angle Brackets",
+      "scope": [
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html"
+      ],
+      "settings": {
+        "foreground": "#b0b0b0"
+      }
+    },
+    {
+      "name": "HTML Attributes",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.html"
+      ],
+      "settings": {
+        "foreground": "#8ca9d5"
+      }
+    },
+    {
+      "name": "HTML Attribute Values",
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html"
+      ],
+      "settings": {
+        "foreground": "#88c6c3"
+      }
+    },
+    {
+      "name": "HTML Text Content",
+      "scope": [
+        "text.html.basic source",
+        "text.html.basic meta.embedded.block"
+      ],
+      "settings": {
+        "foreground": "#e2e2ec"
+      }
+    },
+    {
+      "name": "Tailwind Utility Classes",
+      "scope": [
+        "string.quoted.double.html class",
+        "string.quoted.single.html class"
+      ],
+      "settings": {
+        "foreground": "#a3d9a5"
+      }
     }
   ]
 }
