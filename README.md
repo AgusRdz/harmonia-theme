@@ -79,12 +79,12 @@ Harmonia pairs well with the following fonts — chosen for their clarity, legib
 ## 🎨 Preview
 
 ### Harmonia Dark
-![PHP Example](previews/dark/1.png)
-![JS Example](previews/dark/2.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/1.png)
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/2.png)
 
 ### Harmonia Light
-![PHP Example](previews/light/1.png)
-![JS Example](previews/light/2.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/3.png)
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/4.png)
 
 ---
 
