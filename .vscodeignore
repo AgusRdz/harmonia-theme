@@ -3,8 +3,9 @@
 
 # Except the required files
 !package.json
-!readme.md
+!README.md
 !LICENSE.txt
 !icon.png
-!themes/
 !CHANGELOG.md
+!themes/**
+!src/extension.js

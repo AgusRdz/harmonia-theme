@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/AgusRdz/harmonia-theme"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -21,7 +21,7 @@
     "harmonia"
   ],
   "icon": "icon.png",
-  "license": "CC-BY-ND-4.0",
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
@@ -36,7 +36,12 @@
       }
     ]
   },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./src/extension.js",
   "devDependencies": {
+    "prettier": "^3.6.2",
     "vsce": "^2.15.0"
   }
 }
