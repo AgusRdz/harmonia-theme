@@ -1,5 +1,15 @@
 ## Changelog
 
+## [1.0.7] - 2025-08-15
+
+### Added
+
+- Italic font style for control keywords (`if`, `for`, `import`, `switch`, etc.) and operators to improve code readability.
+
+### Improved
+
+- Expanded scope coverage for better syntax consistency across languages.
+
 ## [1.0.6] - 2025-08-15
 
 ### Improved
