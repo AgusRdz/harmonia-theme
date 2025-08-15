@@ -1,5 +1,19 @@
 ## Changelog
 
+## [1.0.6] - 2025-08-15
+
+### Improved
+
+- 🎨 Adjusted Git branch and user labels in the terminal for better visibility in Harmonia Light.
+- 🧊 Softened `editor.background`, `terminal.background`, and `sideBar.background` for a less intrusive visual experience.
+- 🎛️ Refined ANSI color tones (e.g., Blue, BrightGreen) to improve terminal contrast and balance.
+
+### Fixed
+
+- 🚫 Removed intrusive focus outlines from inputs, panels, and tab headers.
+- 🛠️ Fixed selection outlines in Git panels like `CHANGES` and `GRAPH`.
+- 🧹 Removed the purple background from the "Remote Window" button for better theme consistency.
+
 ## [1.0.5] - 2025-08-14
 
 ### Added
