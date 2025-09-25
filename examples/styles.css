@@ -1,0 +1,18 @@
+#borderimg {
+  border-image: url(border.png) 30 round;
+}
+
+p.ex1 {
+  display: none;
+}
+p.ex2 {
+  display: inline;
+}
+p.ex3 {
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid: 150px / auto auto auto;
+}

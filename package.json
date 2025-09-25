@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/AgusRdz/harmonia-theme"
   },
-  "version": "1.0.7",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -33,6 +33,11 @@
         "label": "Harmonia Light",
         "uiTheme": "vs",
         "path": "./themes/harmonia-light-color-theme.json"
+      },
+      {
+        "label": "Harmonia Noir",
+        "uiTheme": "vs-dark",
+        "path": "./themes/harmonia-noir-color-theme.json"
       }
     ]
   },

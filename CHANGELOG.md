@@ -1,5 +1,27 @@
 ## Changelog
 
+## [1.1.0] - 2025-09-24
+
+### Added
+
+- 🖤 **Harmonia Noir**: a new dark variant with violet/blue sophistication and deeper contrast.
+- Extended JSX/TSX coverage with dedicated token colors for **tags, angle brackets, and children text**.
+- New `THEME_GUIDE.md` guide (developer reference) to explain theme scopes, settings, and hierarchy.
+
+### Improved
+
+- 🎨 **Light Variant**:
+  - Enhanced distinction between **HTML tags** and **text content** in JSX/HTML.
+  - Adjusted **attribute values** and **Tailwind classes** for better readability.
+  - Refined **bracket matching** and selection highlights for clearer focus.
+- 🌑 **Dark Variant**:
+  - Improved consistency of **JSX/TSX elements** with distinct coloring for tags, brackets, and text nodes.
+  - Balanced colors for **component tags** and **HTML attributes** to avoid blending.
+  - Fine-tuned **terminal findMatch highlight** transparency for better usability.
+- General consistency pass across **light, dark, and noir** to ensure smoother hierarchy and syntax clarity.
+
+---
+
 ## [1.0.7] - 2025-08-15
 
 ### Added

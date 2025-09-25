@@ -1,46 +1,61 @@
 # Harmonia Theme
 
-**Harmonia** is a meticulously crafted theme suite for Visual Studio Code. It comes in two variants - **Dark** and **Light** - both designed for long, focused development sessions with soft, thoughtful visuals and semantic clarity.
+**Harmonia** is a carefully crafted theme suite for Visual Studio Code.
+It now comes in **three variants** - **Dark**, **Light**, and the new
+**Noir** - all designed for long, focused coding sessions with soft, thoughtful visuals and semantic clarity.
 
 ---
 
 ## 🌗 Purpose
 
-Harmonia was created to support developers who value:
+Harmonia was created for developers who want:
 
 - Visual peace over visual noise
-- Focused, low-glare interfaces (in both light and dark modes)
-- Carefully tuned syntax contrast
-- A UI that fades into the background, not fights for attention
+- Focused, low-glare interfaces in both light and dark modes
+- Clear, consistent syntax highlighting
+- A UI that supports your work instead of distracting from it
 
 ---
 
 ## 🎯 Features
 
-- 🎨 **Calm and cohesive palettes** - whether in dark or light, colors are expressive but balanced
-- 🧠 **Semantic clarity** - functions, variables, parameters, and keywords are visually distinct
-- 💬 **Legible comments** - softly styled to blend in without disappearing
-- 📄 **Enhanced Markdown support** - styled blockquotes, headers, inline code, and horizontal rules
-- 💻 **Consistent terminal colors** - ANSI styling designed to match the theme mood
-- 🧩 **Language-first design** - tuned for PHP, JS, JSON, Docker, config/log files, and more
+- 🎨 **Cohesive color palettes** - expressive accents with balanced backgrounds
+- 🧠 **Semantic clarity** - functions, variables, parameters, and keywords all distinct
+- 💬 **Readable comments** - styled to fade gently but never disappear
+- 📄 **Enhanced Markdown** - blockquotes, headers, inline code,
+  separators styled for clarity
+- 💻 **Terminal harmony** - ANSI colors tuned to match the theme
+  mood
+- 🧩 **Language-first design** - tuned for PHP, JS, JSON, Docker, configs, logs, and more
 
 ---
 
 ## 🎨 Color Philosophy
 
 ### Harmonia Dark
+
 - `#1a1b26` - soft, deep background (never pure black)
 - `#d0d0e0` - consistent, low-contrast foreground text
-- Accents: `#c574dd`, `#88c6c3`, `#a3d9a5` - expressive yet quiet
+- Accents: `#c574dd`, `#88c6c3`, `#a3d9a5` --- expressive yet quiet
 - Structure: `#5a5f7a` for dividers, quotes, and spacing
 
 ### Harmonia Light
+
 - `#eceef1` - soft, light background (never pure white)
 - `#2d2d2d` - clean, readable foreground text
-- Accents: `#c574dd`, `#86c591`, `#83bde7` - elegant without harshness
-- Structure: `#c1c1c1` and `#c3c7ce` for subtle grid, guides, and dividers
+- Accents: `#c574dd`, `#86c591`, `#83bde7` --- elegant without harshness
+- Structure: `#c1c1c1` and `#c3c7ce` for subtle guides and dividers
 
-Both variants aim to reduce fatigue while keeping code readable and environments beautiful.
+### Harmonia Noir (new in 1.1.0)
+
+- `#14121A` - rich violet-black background for deep focus
+- `#d0d0e0` - soft, neutral foreground text
+- Accents: `#b88ce8`, `#9fd6d1`, `#e0a96d` - sophisticated, moody
+  tones
+- Structure: `#4C4665` and `#2A2835` for subtle depth and guides
+
+Each variant is designed to reduce fatigue, keep code readable, and make
+your editor feel like a calm workspace.
 
 ---
 
@@ -61,39 +76,113 @@ Both variants aim to reduce fatigue while keeping code readable and environments
 }
 ```
 
+---
+
+## 🎨 Advanced Usage
+
+Harmonia works out of the box, but you can take advantage of VS Code's customization options to fine-tune your experience.
+
+### Set Default Theme
+
+```json
+"workbench.colorTheme": "Harmonia Noir"
+```
+
+Always start VS Code with **Harmonia Noir**.
+Change to "Harmonia Dark" or "Harmonia Light" as needed.
+
+### Preferred Dark/Light Theme
+
+```json
+"workbench.preferredDarkColorTheme": "Harmonia Noir",
+"workbench.preferredLightColorTheme": "Harmonia Light",
+"window.autoDetectColorScheme": true
+```
+
+Automatically switch between Light and Dark variants based on your operating system theme.
+
+### Theme-Specific Overrides
+
+VS Code allows overriding colors per theme without editing the theme itself.
+Official docs: [Customize a Color Theme](https://code.visualstudio.com/docs/configure/themes#_customize-a-color-theme)
+
+```json
+"workbench.colorCustomizations": {
+  "[Harmonia Dark]": {
+    "editor.background": "#1a1b26",
+    "editor.foreground": "#d0d0e0"
+  },
+  "[Harmonia Light]": {
+    "editor.background": "#eceef1",
+    "editor.foreground": "#2d2d2d"
+  },
+  "[Harmonia Noir]": {
+    "editor.background": "#14121A",
+    "editor.foreground": "#d0d0e0"
+  }
+}
+```
+
+This example tweaks line numbers differently for each variant.
+You can use the same method to adjust highlights, borders, or any UI color.
+
+---
+
 ## 🔤 Recommended Fonts
 
-Harmonia pairs well with the following fonts - chosen for their clarity, legibility, and comfort during long coding sessions:
+Harmonia pairs well with these fonts, chosen for clarity and comfort
+during long sessions:
 
-| Font               | Link |
-|--------------------|------|
-| **Monaspace Argon** | [monaspace.githubnext.com](https://monaspace.githubnext.com/) |
-| **Fira Code**       | [github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode) |
-| **MonoLisa**        | [monolisa.dev](https://www.monolisa.dev/) *(the free version is enough)* |
-| **JetBrains Mono**  | [jetbrains.com/lp/mono](https://www.jetbrains.com/lp/mono/) |
-| **DejaVu Sans Code** | [dejavu-fonts.github.io](https://dejavu-fonts.github.io/) |
-| **monospace**       | *(System fallback - no installation needed)* |
+| Font                 | Link                                                                     |
+| -------------------- | ------------------------------------------------------------------------ |
+| **Monaspace Argon**  | [monaspace.githubnext.com](https://monaspace.githubnext.com/)            |
+| **Fira Code**        | [github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode)         |
+| **MonoLisa**         | [monolisa.dev](https://www.monolisa.dev/) _(the free version is enough)_ |
+| **JetBrains Mono**   | [jetbrains.com/lp/mono](https://www.jetbrains.com/lp/mono/)              |
+| **DejaVu Sans Code** | [dejavu-fonts.github.io](https://dejavu-fonts.github.io/)                |
+| **monospace**        | _(System fallback - no installation needed)_                             |
 
 ---
 
 ## 🎨 Preview
 
 ### Harmonia Dark
-![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/1.png)
-![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/2.png)
+
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark/1.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark/2.png)
+![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark/3.png)
 
 ### Harmonia Light
-![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/3.png)
-![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/4.png)
+
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/light/1.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/light/2.png)
+![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/light/3.png)
+
+### Harmonia Noir
+
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/noir/1.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/noir/2.png)
+![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/noir/3.png)
+
+---
+
+## 📦 Installation
+
+- Search for **Harmonia Theme** in the VS Code Marketplace
+
+- Or install via command:
+
+      ext install agusrdz.harmonia-theme
 
 ---
 
 ## License
 
 Harmonia is released under the [MIT License](LICENSE.txt).
-Feel free to use, modify, and distribute it as you wish.
+Use, modify, and share it freely.
 
-
-> Feedback and suggestions are always welcome!
-This is a personal spare-time project I built for my own use, and I’m sharing it in case others find it helpful.
-While all input is appreciated, updates or feature requests are not guaranteed.
+> Feedback is always welcome! This started as a personal project for my
+> own daily coding, and I'm happy to share it with anyone who finds it
+> useful.
+> Suggestions are appreciated - updates are not guaranteed, but the
+> theme will continue to evolve with time.
