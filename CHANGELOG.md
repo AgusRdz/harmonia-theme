@@ -1,12 +1,25 @@
-## Changelog
+### Added
 
-## [1.1.0] - 2025-09-24
+## [1.2.0] - 2025-09-26
+
+### Added
+
+- 🌓 **Harmonia Dark High Contrast**: a new dark variant with stronger contrasts, designed for accessibility and maximum readability.
+  - Stronger borders, sharper contrasts, and vivid accents for **maximum readability**.
+  - Accessibility-driven design for users who prefer **bold distinctions** in syntax.
+  - Ideal for long sessions where eye strain or visual clarity is critical.
+
+### Removed
+
+- Removed the install/update notification script.
+
+## [1.1.0] - 2025-09-25
 
 ### Added
 
 - 🖤 **Harmonia Noir**: a new dark variant with violet/blue sophistication and deeper contrast.
-- Extended JSX/TSX coverage with dedicated token colors for **tags, angle brackets, and children text**.
-- New `THEME_GUIDE.md` guide (developer reference) to explain theme scopes, settings, and hierarchy.
+  - Extended JSX/TSX coverage with dedicated token colors for **tags, angle brackets, and children text**.
+  - New `THEME_GUIDE.md` guide (developer reference) to explain theme scopes, settings, and hierarchy.
 
 ### Improved
 

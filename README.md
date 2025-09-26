@@ -1,8 +1,7 @@
 # Harmonia Theme
 
 **Harmonia** is a carefully crafted theme suite for Visual Studio Code.
-It now comes in **three variants** - **Dark**, **Light**, and the new
-**Noir** - all designed for long, focused coding sessions with soft, thoughtful visuals and semantic clarity.
+It now comes in four variants - Dark, Light, Noir, and the new High Contrast - all designed for long, focused coding sessions with soft, thoughtful visuals and semantic clarity.
 
 ---
 
@@ -46,13 +45,26 @@ Harmonia was created for developers who want:
 - Accents: `#c574dd`, `#86c591`, `#83bde7` --- elegant without harshness
 - Structure: `#c1c1c1` and `#c3c7ce` for subtle guides and dividers
 
-### Harmonia Noir (new in 1.1.0)
+### Harmonia Noir
 
 - `#14121A` - rich violet-black background for deep focus
 - `#d0d0e0` - soft, neutral foreground text
 - Accents: `#b88ce8`, `#9fd6d1`, `#e0a96d` - sophisticated, moody
   tones
 - Structure: `#4C4665` and `#2A2835` for subtle depth and guides
+
+### Harmonia High Contrast (new in 1.2.0)
+
+- `#0f0f0f` - stronger, pure background
+- `#ffffff` - crisp, accessible foreground text
+- Accents: `#ff4081`, `#00e5ff`, `#76ff03` - high-contrast, vivid highlights
+- Structure: `#888888`, `#444444` - clear borders and guides
+
+Harmonia High Contrast (new in 1.2.0)
+• #0f0f0f - stronger, pure background
+• #ffffff - crisp, accessible foreground text
+• Accents: #ff4081, #00e5ff, #76ff03 - high-contrast, vivid highlights
+• Structure: #888888, #444444 - clear borders and guides
 
 Each variant is designed to reduce fatigue, keep code readable, and make
 your editor feel like a calm workspace.
@@ -119,6 +131,10 @@ Official docs: [Customize a Color Theme](https://code.visualstudio.com/docs/conf
   "[Harmonia Noir]": {
     "editor.background": "#14121A",
     "editor.foreground": "#d0d0e0"
+  },
+    "[Harmonia High Contrast]": {
+    "editor.background": "#0f0f0f",
+    "editor.foreground": "#ffffff"
   }
 }
 ```
@@ -164,15 +180,11 @@ during long sessions:
 ![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/noir/2.png)
 ![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/noir/3.png)
 
----
+### Harmonia Dark High Contrast
 
-## 📦 Installation
-
-- Search for **Harmonia Theme** in the VS Code Marketplace
-
-- Or install via command:
-
-      ext install agusrdz.harmonia-theme
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark-high-contrast/1.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark-high-contrast/2.png)
+![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark-high-contrast/3.png)
 
 ---
 
