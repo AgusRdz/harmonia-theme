@@ -110,7 +110,9 @@
     "terminal.ansiYellow": "#d4aa76",
     "terminal.background": "#14121A",
     "terminal.border": "#2a2840",
-    "terminal.foreground": "#d0d0e0"
+    "terminal.foreground": "#d0d0e0",
+    "textLink.foreground": "#b88ce8",
+    "textLink.activeForeground": "#9fd6d1"
   },
   "semanticHighlighting": true,
   "tokenColors": [

@@ -36,6 +36,7 @@
     "editorBracketMatch.border": "#7C82A3",
     "editorCursor.foreground": "#FFFFFF",
     "editorGroup.border": "#3A3D55",
+    "editorGroupHeader.tabsBackground": "#0B0C12",
     "editorGutter.addedBackground": "#89E5A3",
     "editorGutter.background": "#0B0C12",
     "editorGutter.commentRangeForeground": "#86E1F0",
@@ -90,6 +91,8 @@
     "statusBarItem.remoteBackground": "#00000000",
     "statusBarItem.remoteForeground": "#F2F2FA",
     "tab.activeBackground": "#0B0C12",
+    "tab.activeBorder": "#D08CFF",
+    "tab.activeBorderTop": "#D08CFF",
     "tab.activeForeground": "#FFFFFF",
     "tab.border": "#3A3D55",
     "tab.inactiveBackground": "#14162A",
@@ -118,9 +121,8 @@
     "terminal.hoverHighlightBackground": "#2E3354",
     "terminal.selectionBackground": "#4850A5",
     "terminal.tab.activeBorder": "#D08CFF",
-    "editorGroupHeader.tabsBackground": "#0B0C12",
-    "tab.activeBorder": "#D08CFF",
-    "tab.activeBorderTop": "#D08CFF"
+    "textLink.activeForeground": "#ff4081",
+    "textLink.foreground": "#00e5ff"
   },
   "semanticHighlighting": true,
   "tokenColors": [

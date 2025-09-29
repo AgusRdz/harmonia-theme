@@ -1,12 +1,21 @@
 ### Added
 
+## [1.4.0] - 2025-10-07
+
+### Added
+
+- 📄 **Harmonia Paper White** - a new light variant crafted for maximum clarity and natural readability.
+  - Clean, near-white background with gentle gray balance.
+  - Strong yet calm accents for HTML/JSX tags, functions, and keywords.
+  - Designed for long coding sessions, offering print-like contrast and reduced visual fatigue.
+
 ## [1.3.0] - 2025-09-29
 
 ### Added
 
 - 🌌 Harmonia OLED True Black: a new dark variant with pure black backgrounds for OLED panels.
-- Designed for maximum energy efficiency on OLED displays.
-- Crisp contrast while keeping accents comfortable for long sessions.
+  - Designed for maximum energy efficiency on OLED displays.
+  - Crisp contrast while keeping accents comfortable for long sessions.
 
 ## [1.2.0] - 2025-09-26
 

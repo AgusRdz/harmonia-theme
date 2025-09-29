@@ -120,7 +120,9 @@
     "terminal.hoverHighlightBackground": "#E6EAF0",
     "terminal.selectionBackground": "#D4DBE8",
     "terminal.tab.activeBorder": "#A454CB",
-    "terminalCursor.foreground": "#3A3A3A"
+    "terminalCursor.foreground": "#3A3A3A",
+    "textLink.foreground": "#83bde7",
+    "textLink.activeForeground": "#a3d9a5"
   },
   "tokenColors": [
     {

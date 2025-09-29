@@ -1,7 +1,5 @@
 # Harmonia Theme
 
-[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/agusrdz.harmonia-theme?label=VS%20Code%20Marketplace&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=agusrdz.harmonia-theme)
-
 **Harmonia** is a carefully crafted theme suite for Visual Studio Code.
 All variants are designed for long, focused coding sessions with soft, thoughtful visuals and semantic clarity.
 
@@ -12,6 +10,7 @@ Currently included:
 - 🌌 **Harmonia Noir** - violet-black, elegant and moody
 - 🎯 **Harmonia Dark High Contrast** - bold contrast for maximum focus
 - 🖤 **Harmonia OLED True Black** - pure black background, power-efficient on OLED
+- 📄 **Harmonia Paper White** - bright, print-like clarity for maximum readability
 
 ---
 
@@ -76,6 +75,13 @@ Harmonia was created for developers who want:
 - `#d0d0d0` - soft neutral text for comfort
 - Accents: `#ff79c6`, `#50fa7b`, `#8be9fd` - vivid, high-energy highlights
 - Structure: `#44475a`, `#282a36` - careful borders and subtle guides
+
+### Harmonia Paper White
+
+- `#ffffff` - bright, paper-like background for a clean and natural workspace
+- `#2d2d2d` - crisp, comfortable foreground text
+- Accents: `#AA0000`, `#000088`, `#005500`, `#660066` - vivid ink-like hues inspired by print media
+- Guides & dividers: soft grays (`#E0E0E0`, `#DDDDDD`) for balanced separation without visual noise
 
 Each variant is designed to reduce fatigue, keep code readable, and make
 your editor feel like a calm workspace.
@@ -191,6 +197,12 @@ during long sessions:
 ![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/oled-true-black/1.png)
 ![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/oled-true-black/2.png)
 ![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/oled-true-black/3.png)
+
+### Harmonia Paper White
+
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/paper-white/1.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/paper-white/2.png)
+![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/paper-white/3.png)
 
 ---
 
