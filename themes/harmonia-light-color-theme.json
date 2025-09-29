@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Harmonia Light",
   "type": "light",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#e6e8eb",
     "activityBar.border": "#00000000",

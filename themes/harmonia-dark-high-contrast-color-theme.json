@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Harmonia High Contrast",
+  "name": "Harmonia Dark High Contrast",
   "type": "dark",
   "colors": {
     "activityBar.background": "#0F1018",
@@ -8,27 +8,21 @@
     "activityBar.foreground": "#E8E8F2",
     "activityBarBadge.background": "#D08CFF",
     "activityBarBadge.foreground": "#0B0C12",
-
     "badge.background": "#B574F2",
     "badge.foreground": "#0B0C12",
-
     "breadcrumb.background": "#0D0F17",
     "breadcrumb.focusForeground": "#D3D7FF",
     "breadcrumb.foreground": "#9AA0B5",
-
     "button.background": "#C59BFF",
     "button.border": "#00000000",
     "button.foreground": "#0B0C12",
     "button.hoverBackground": "#B888FF",
-
     "diffEditor.border": "#7C82A3",
     "diffEditor.insertedLineBackground": "#2AD48A26",
     "diffEditor.insertedTextBackground": "#1FA463AA",
     "diffEditor.removedLineBackground": "#FF7A8726",
     "diffEditor.removedTextBackground": "#C13E4DAA",
-
     "dropdown.border": "#00000000",
-
     "editor.background": "#0B0C12",
     "editor.focusedStackFrameHighlightBackground": "#00000000",
     "editor.foreground": "#ECECF4",
@@ -38,28 +32,20 @@
     "editor.selectionBackground": "#4840A5",
     "editor.selectionForeground": "#FFFFFF",
     "editor.selectionHighlightBackground": "#6B5DD0B3",
-
     "editorBracketMatch.background": "#53577C",
     "editorBracketMatch.border": "#7C82A3",
-
     "editorCursor.foreground": "#FFFFFF",
-
     "editorGroup.border": "#3A3D55",
-
     "editorGutter.addedBackground": "#89E5A3",
     "editorGutter.background": "#0B0C12",
     "editorGutter.commentRangeForeground": "#86E1F0",
     "editorGutter.deletedBackground": "#FF8C96",
     "editorGutter.modifiedBackground": "#8DD6FF",
-
     "editorIndentGuide.activeBackground1": "#6A6F95",
     "editorIndentGuide.background1": "#353A55",
-
     "editorLineNumber.foreground": "#6F7392",
     "editorWhitespace.foreground": "#31364A",
-
     "focusBorder": "#00000000",
-
     "gitDecoration.addedResourceForeground": "#89E5A3",
     "gitDecoration.conflictingResourceForeground": "#F0B36B",
     "gitDecoration.deletedResourceForeground": "#FF8C96",
@@ -68,7 +54,6 @@
     "gitDecoration.renamedResourceForeground": "#8DD6FF",
     "gitDecoration.submoduleResourceForeground": "#A8F0E6",
     "gitDecoration.untrackedResourceForeground": "#89E5A3",
-
     "list.activeSelectionBackground": "#3A3E6B",
     "list.activeSelectionForeground": "#F2F2FA",
     "list.deemphasizedForeground": "#A3A8BC",
@@ -77,10 +62,8 @@
     "list.hoverBackground": "#343861",
     "list.inactiveSelectionBackground": "#2E3354",
     "list.inactiveSelectionForeground": "#ECECF4",
-
     "panel.background": "#0B0C12",
     "panel.border": "#3A3D55",
-
     "scmGraph.foreground1": "#D08CFF",
     "scmGraph.foreground2": "#FF995E",
     "scmGraph.foreground3": "#86E1F0",
@@ -94,13 +77,10 @@
     "scmGraph.historyItemHoverLabelForeground": "#F2F2FA",
     "scmGraph.historyItemRefColor": "#D08CFF",
     "scmGraph.historyItemRemoteRefColor": "#7AD796",
-
     "scrollbar.shadow": "#00000080",
-
     "sideBar.background": "#0B0C12",
     "sideBar.border": "#00000000",
     "sideBar.foreground": "#ECECF4",
-
     "statusBar.background": "#0F1018",
     "statusBar.debuggingBackground": "#D08CFF",
     "statusBar.debuggingForeground": "#0B0C12",
@@ -109,13 +89,11 @@
     "statusBar.noFolderForeground": "#ECECF4",
     "statusBarItem.remoteBackground": "#00000000",
     "statusBarItem.remoteForeground": "#F2F2FA",
-
     "tab.activeBackground": "#0B0C12",
     "tab.activeForeground": "#FFFFFF",
     "tab.border": "#3A3D55",
     "tab.inactiveBackground": "#14162A",
     "tab.inactiveForeground": "#A0A5BC",
-
     "terminal.ansiBlack": "#252735",
     "terminal.ansiBlue": "#74C0FF",
     "terminal.ansiBrightBlack": "#7C82A3",
@@ -132,7 +110,6 @@
     "terminal.ansiRed": "#FF7E8A",
     "terminal.ansiWhite": "#ECECF4",
     "terminal.ansiYellow": "#F0BE79",
-
     "terminal.background": "#0B0C12",
     "terminal.border": "#3A3D55",
     "terminal.findMatchBackground": "#6B5DD0CC",
@@ -141,7 +118,6 @@
     "terminal.hoverHighlightBackground": "#2E3354",
     "terminal.selectionBackground": "#4850A5",
     "terminal.tab.activeBorder": "#D08CFF",
-
     "editorGroupHeader.tabsBackground": "#0B0C12",
     "tab.activeBorder": "#D08CFF",
     "tab.activeBorderTop": "#D08CFF"
@@ -163,7 +139,6 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": { "foreground": "#7C82A3", "fontStyle": "italic" }
     },
-
     {
       "name": "HTML Angle Brackets",
       "scope": [
@@ -180,7 +155,6 @@
       ],
       "settings": { "foreground": "#C9CDD9" }
     },
-
     {
       "name": "HTML Tag Name",
       "scope": ["entity.name.tag", "support.class.component.html"],
@@ -201,7 +175,6 @@
       ],
       "settings": { "foreground": "#D3D7FF" }
     },
-
     {
       "name": "HTML/JSX/Vue Attributes",
       "scope": [
@@ -236,7 +209,6 @@
       ],
       "settings": { "foreground": "#A9F0DA" }
     },
-
     {
       "name": "HTML Text Content",
       "scope": ["text.html.basic", "text.html.derivative"],
@@ -256,7 +228,6 @@
       ],
       "settings": { "foreground": "#F0F2F8" }
     },
-
     {
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
@@ -272,7 +243,6 @@
       ],
       "settings": { "foreground": "#D3D7FF" }
     },
-
     {
       "name": "Strings (Generic)",
       "scope": ["punctuation.definition.string", "string"],
@@ -288,7 +258,6 @@
       "scope": ["meta.function.parameter", "variable.parameter"],
       "settings": { "foreground": "#B8F7F2" }
     },
-
     {
       "name": "Constants / Language / Character",
       "scope": ["constant.numeric", "constant.language", "constant.character"],
@@ -320,7 +289,6 @@
       ],
       "settings": { "fontStyle": "italic" }
     },
-
     {
       "name": "Markdown: Heading",
       "scope": ["markup.heading"],
@@ -366,7 +334,6 @@
       "scope": ["meta.separator.markdown"],
       "settings": { "foreground": "#7C82A3" }
     },
-
     {
       "name": "Invalid / Illegal",
       "scope": ["invalid", "invalid.illegal"],

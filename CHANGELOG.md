@@ -1,5 +1,13 @@
 ### Added
 
+## [1.3.0] - 2025-09-29
+
+### Added
+
+- 🌌 Harmonia OLED True Black: a new dark variant with pure black backgrounds for OLED panels.
+- Designed for maximum energy efficiency on OLED displays.
+- Crisp contrast while keeping accents comfortable for long sessions.
+
 ## [1.2.0] - 2025-09-26
 
 ### Added

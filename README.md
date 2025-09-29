@@ -1,7 +1,17 @@
 # Harmonia Theme
 
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/agusrdz.harmonia-theme?label=VS%20Code%20Marketplace&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=agusrdz.harmonia-theme)
+
 **Harmonia** is a carefully crafted theme suite for Visual Studio Code.
-It now comes in four variants - Dark, Light, Noir, and the new High Contrast - all designed for long, focused coding sessions with soft, thoughtful visuals and semantic clarity.
+All variants are designed for long, focused coding sessions with soft, thoughtful visuals and semantic clarity.
+
+Currently included:
+
+- 🌑 **Harmonia Dark** - deep, soft background, balanced accents
+- ☀️ **Harmonia Light** - gentle light mode, clean readability
+- 🌌 **Harmonia Noir** - violet-black, elegant and moody
+- 🎯 **Harmonia Dark High Contrast** - bold contrast for maximum focus
+- 🖤 **Harmonia OLED True Black** - pure black background, power-efficient on OLED
 
 ---
 
@@ -53,18 +63,19 @@ Harmonia was created for developers who want:
   tones
 - Structure: `#4C4665` and `#2A2835` for subtle depth and guides
 
-### Harmonia High Contrast (new in 1.2.0)
+### Harmonia Dark High Contrast
 
 - `#0f0f0f` - stronger, pure background
 - `#ffffff` - crisp, accessible foreground text
 - Accents: `#ff4081`, `#00e5ff`, `#76ff03` - high-contrast, vivid highlights
 - Structure: `#888888`, `#444444` - clear borders and guides
 
-Harmonia High Contrast (new in 1.2.0)
-• #0f0f0f - stronger, pure background
-• #ffffff - crisp, accessible foreground text
-• Accents: #ff4081, #00e5ff, #76ff03 - high-contrast, vivid highlights
-• Structure: #888888, #444444 - clear borders and guides
+### Harmonia OLED True Black
+
+- `#000000` - true black background for OLED panels (power efficient)
+- `#d0d0d0` - soft neutral text for comfort
+- Accents: `#ff79c6`, `#50fa7b`, `#8be9fd` - vivid, high-energy highlights
+- Structure: `#44475a`, `#282a36` - careful borders and subtle guides
 
 Each variant is designed to reduce fatigue, keep code readable, and make
 your editor feel like a calm workspace.
@@ -122,20 +133,9 @@ Official docs: [Customize a Color Theme](https://code.visualstudio.com/docs/conf
 "workbench.colorCustomizations": {
   "[Harmonia Dark]": {
     "editor.background": "#1a1b26",
-    "editor.foreground": "#d0d0e0"
+    "editor.foreground": "#d0d0e0",
+    // other tweaks...
   },
-  "[Harmonia Light]": {
-    "editor.background": "#eceef1",
-    "editor.foreground": "#2d2d2d"
-  },
-  "[Harmonia Noir]": {
-    "editor.background": "#14121A",
-    "editor.foreground": "#d0d0e0"
-  },
-    "[Harmonia High Contrast]": {
-    "editor.background": "#0f0f0f",
-    "editor.foreground": "#ffffff"
-  }
 }
 ```
 
@@ -185,6 +185,12 @@ during long sessions:
 ![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark-high-contrast/1.png)
 ![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark-high-contrast/2.png)
 ![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/dark-high-contrast/3.png)
+
+### Harmonia OLED True Black
+
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/oled-true-black/1.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/oled-true-black/2.png)
+![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/oled-true-black/3.png)
 
 ---
 

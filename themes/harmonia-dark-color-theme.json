@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Harmonia Dark",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#21222e",
     "activityBar.border": "#00000000",
@@ -142,7 +143,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "name": "HTML Angle Brackets",
       "scope": [
@@ -262,7 +262,6 @@
       "scope": ["meta.function.parameter", "variable.parameter"],
       "settings": { "foreground": "#94E2D5" }
     },
-
     {
       "name": "Constants / Language / Character",
       "scope": ["constant.numeric", "constant.language", "constant.character"],
