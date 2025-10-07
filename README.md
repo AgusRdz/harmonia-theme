@@ -3,14 +3,38 @@
 **Harmonia** is a carefully crafted theme suite for Visual Studio Code.
 All variants are designed for long, focused coding sessions with soft, thoughtful visuals and semantic clarity.
 
-Currently included:
+## 🎨 Harmonia Theme Family
 
-- 🌑 **Harmonia Dark** - deep, soft background, balanced accents
-- ☀️ **Harmonia Light** - gentle light mode, clean readability
-- 🌌 **Harmonia Noir** - violet-black, elegant and moody
-- 🎯 **Harmonia Dark High Contrast** - bold contrast for maximum focus
-- 🖤 **Harmonia OLED True Black** - pure black background, power-efficient on OLED
-- 📄 **Harmonia Paper White** - bright, print-like clarity for maximum readability
+| Variant                | Mode  | Description                            | Palette                         |
+| ---------------------- | ----- | -------------------------------------- | ------------------------------- |
+| 🌑 **Dark**            | Dark  | Technical, focused, and balanced.      | `#1a1b26`, `#9CB8FF`, `#83D3B2` |
+| 🌌 **Noir**            | Dark  | Elegant, moody, and cinematic.         | `#14121A`, `#C2A0F5`, `#A8E0D2` |
+| 💎 **High Contrast**   | Dark  | Sharp and vibrant for high visibility. | `#1a1b26`, `#E3B1FF`, `#A9F0DA` |
+| 🖤 **OLED True Black** | Dark  | Pure black for OLED screens.           | `#000000`, `#B99EF0`, `#A7DEAE` |
+| ☀️ **Light**           | Light | Clean, balanced, and neutral.          | `#eceef1`, `#4B5EBD`, `#2F7C61` |
+| 📄 **Paper White**     | Light | Print-like and ultra-readable.         | `#ffffff`, `#2D2D2D`, `#3574A3` |
+| 🌈 **Aurora**          | Dark  | Soft, colorful, and relaxing.          | `#1D1C28`, `#E8A2C8`, `#B0E3C5` |
+
+---
+
+## 🩵 The Harmonia Journey - Complete, but Ever-Evolving
+
+With version **1.5.1**, the **Harmonia core collection** is now considered **feature complete**.
+Each variant - from _Dark_ to _Aurora_ - represents a unique balance of clarity, comfort, and emotion,
+forming a full spectrum designed for long, pleasant coding sessions.
+
+Harmonia will continue to receive:
+
+- Minor refinements for **contrast, readability, and accessibility**.
+- Adjustments to stay in sync with **new VS Code tokens and UI updates**.
+- Occasional explorations under **_Harmonia Elements_**,
+  a sub-family of experimental palettes inspired by natural tones (e.g. _Teal_, _Sand_, _Rose_).
+
+> Harmonia is no longer expanding - it’s maturing.
+> Its philosophy of visual harmony, comfort, and balance remains at the core of every update.
+
+🌿 Thank you for helping Harmonia grow into a complete family of colors,
+trusted by developers who value focus, serenity, and timeless design.
 
 ---
 
@@ -44,7 +68,7 @@ Harmonia was created for developers who want:
 
 - `#1a1b26` - soft, deep background (never pure black)
 - `#d0d0e0` - consistent, low-contrast foreground text
-- Accents: `#c574dd`, `#88c6c3`, `#a3d9a5` --- expressive yet quiet
+- Accents: `#9CB8FF`, `#88c6c3`, `#c574dd` --- expressive yet quiet
 - Structure: `#5a5f7a` for dividers, quotes, and spacing
 
 ### Harmonia Light
@@ -58,7 +82,7 @@ Harmonia was created for developers who want:
 
 - `#14121A` - rich violet-black background for deep focus
 - `#d0d0e0` - soft, neutral foreground text
-- Accents: `#b88ce8`, `#9fd6d1`, `#e0a96d` - sophisticated, moody
+- Accents: `#C2A0F5`, `#A8E0D2`, `#e0a96d` - sophisticated, moody
   tones
 - Structure: `#4C4665` and `#2A2835` for subtle depth and guides
 

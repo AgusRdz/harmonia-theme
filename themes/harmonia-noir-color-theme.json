@@ -28,7 +28,7 @@
     "editor.inactiveSelectionBackground": "#27243aAA",
     "editor.lineHighlightBackground": "#1C1A25",
     "editor.lineHighlightBorder": "#232132",
-    "editor.selectionBackground": "#312E45",
+    "editor.selectionBackground": "#3A3156",
     "editor.selectionForeground": "#ffffff",
     "editor.selectionHighlightBackground": "#4a3f6a80",
     "editorBracketMatch.background": "#3f3a58",
@@ -53,12 +53,12 @@
     "gitDecoration.renamedResourceForeground": "#6ebddb",
     "gitDecoration.submoduleResourceForeground": "#94E2D5",
     "gitDecoration.untrackedResourceForeground": "#a3d9a5",
-    "list.activeSelectionBackground": "#2e2a46",
+    "list.activeSelectionBackground": "#382F54",
     "list.activeSelectionForeground": "#e0e0f0",
     "list.deemphasizedForeground": "#888ca0",
     "list.focusAndSelectionOutline": "#00000000",
     "list.focusOutline": "#00000000",
-    "list.hoverBackground": "#2b2742",
+    "list.hoverBackground": "#2F294A",
     "list.inactiveSelectionBackground": "#25213a",
     "list.inactiveSelectionForeground": "#d0d0e0",
     "panel.background": "#14121A",
@@ -112,8 +112,8 @@
     "terminal.background": "#14121A",
     "terminal.border": "#2a2840",
     "terminal.foreground": "#d0d0e0",
-    "textLink.foreground": "#b88ce8",
-    "textLink.activeForeground": "#9fd6d1"
+    "textLink.foreground": "#C2A0F5",
+    "textLink.activeForeground": "#A8E0D2"
   },
   "tokenColors": [
     {
@@ -223,7 +223,7 @@
     {
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#9db1ff" }
+      "settings": { "foreground": "#B8BDF0" }
     },
     {
       "name": "Namespaces / Types / Classes",

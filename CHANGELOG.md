@@ -1,3 +1,19 @@
+## [1.5.1] - 2025-10-07
+
+### Updated
+
+- ✨ Minor refinements across the suite for **contrast and consistency**.
+- 🌌 Subtle tone adjustments in _Dark_ and _Noir_ to maintain distinct identities.
+- 🪶 Final alignment of **token colors** across all themes for uniform hierarchy and legibility.
+
+### Notes
+
+With this release, the **Harmonia core collection** is now considered complete.
+Future updates will focus on **accessibility, performance, and fine-tuning** - not on introducing new variants.
+
+> Harmonia 1.5 marks the completion of its visual philosophy:
+> seven cohesive themes built for comfort, focus, and balance - across every light and dark environment.
+
 ## [1.5.0] - 2025-10-07
 
 ### Added

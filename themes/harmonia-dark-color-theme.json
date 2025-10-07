@@ -30,9 +30,9 @@
     "editor.inactiveSelectionBackground": "#2c2e40AA",
     "editor.lineHighlightBackground": "#2a2b38",
     "editor.lineHighlightBorder": "#2e2f3a",
-    "editor.selectionBackground": "#3b4d6a",
+    "editor.selectionBackground": "#37527D",
     "editor.selectionForeground": "#ffffff",
-    "editor.selectionHighlightBackground": "#50467980",
+    "editor.selectionHighlightBackground": "#37527D66",
     "editorBracketMatch.background": "#444769",
     "editorBracketMatch.border": "#5a5f7a",
     "editorCursor.foreground": "#d0d0e0",
@@ -120,8 +120,8 @@
     "terminal.selectionBackground": "#3b4d6a",
     "terminal.tab.activeBorder": "#c574dd",
     "terminalCursor.foreground": "#d0d0e0",
-    "textLink.foreground": "#83bde7",
-    "textLink.activeForeground": "#a3d9a5"
+    "textLink.foreground": "#7BAEF5",
+    "textLink.activeForeground": "#83D3B2"
   },
   "tokenColors": [
     {
@@ -237,7 +237,7 @@
     {
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#B8BDF0" }
+      "settings": { "foreground": "#9CB8FF" }
     },
     {
       "name": "Namespaces / Types / Classes",
