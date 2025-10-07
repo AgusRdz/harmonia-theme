@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/AgusRdz/harmonia-theme"
   },
-  "version": "1.4.0",
+  "version": "1.5.0",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -23,7 +23,8 @@
     "noir",
     "harmonia",
     "oled",
-    "paper white"
+    "paper white",
+    "aurora"
   ],
   "icon": "icon.png",
   "license": "MIT",
@@ -58,6 +59,11 @@
         "label": "Harmonia Paper White",
         "uiTheme": "vs",
         "path": "./themes/harmonia-paper-white-color-theme.json"
+      },
+      {
+        "label": "Harmonia Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/harmonia-aurora-color-theme.json"
       }
     ]
   },

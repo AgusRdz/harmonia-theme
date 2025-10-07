@@ -83,6 +83,20 @@ Harmonia was created for developers who want:
 - Accents: `#AA0000`, `#000088`, `#005500`, `#660066` - vivid ink-like hues inspired by print media
 - Guides & dividers: soft grays (`#E0E0E0`, `#DDDDDD`) for balanced separation without visual noise
 
+### Harmonia Aurora
+
+- `#b7a0ff` - gentle violet for keywords and logic
+- `#f7a3a8` - warm rose for HTML/JSX tags
+- `#b0e3c5` - soft mint for strings and class names
+- `#a5d8f7` - cool blue for functions and utilities
+- `#f9d79f` - subtle amber for numbers and constants
+
+**Highlights:**
+
+- Balanced pastels with clean contrast - colorful yet easy on the eyes.
+- Inspired by sunrise tones: a midpoint between _Dark_ and _Light_.
+- Perfect for relaxed creative coding or front-end design work.
+
 Each variant is designed to reduce fatigue, keep code readable, and make
 your editor feel like a calm workspace.
 
@@ -203,6 +217,12 @@ during long sessions:
 ![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/paper-white/1.png)
 ![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/paper-white/2.png)
 ![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/paper-white/3.png)
+
+### Harmonia Aurora
+
+![JS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/aurora/1.png)
+![PHP Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/aurora/2.png)
+![CSS Example](https://raw.githubusercontent.com/AgusRdz/harmonia-theme/master/images/aurora/3.png)
 
 ---
 

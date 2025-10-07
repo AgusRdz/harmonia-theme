@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Harmonia Noir",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#1A1822",
     "activityBar.border": "#00000000",
@@ -114,7 +115,6 @@
     "textLink.foreground": "#b88ce8",
     "textLink.activeForeground": "#9fd6d1"
   },
-  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comments",

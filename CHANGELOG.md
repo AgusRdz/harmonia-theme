@@ -1,4 +1,16 @@
+## [1.5.0] - 2025-10-07
+
 ### Added
+
+- 🌈 **Harmonia Aurora**: a vibrant, pastel-inspired theme with soft contrast and fluid hues.
+  - Designed for visual comfort with a modern, lively palette.
+  - Balanced saturation - colorful but not overwhelming.
+  - Ideal for creative sessions, UI work, or long coding days.
+
+### Improved
+
+- ⚙️ **Status bar consistency** across all themes - prominent items now adapt to each palette.
+- 🎨 **Semantic highlighting** enabled for all themes for more precise and meaningful syntax colorization.
 
 ## [1.4.0] - 2025-10-07
 

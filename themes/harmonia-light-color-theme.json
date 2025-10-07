@@ -127,6 +127,16 @@
   "tokenColors": [
     {
       "name": "Comments",
+      "scope": [
+        "comment",
+        "comment.block",
+        "comment.line",
+        "comment.line.double-slash"
+      ],
+      "settings": { "foreground": "#808890", "fontStyle": "italic" }
+    },
+    {
+      "name": "Comment Punctuation",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": { "foreground": "#808890", "fontStyle": "italic" }
     },
@@ -179,16 +189,6 @@
       "settings": { "foreground": "#3574A3" }
     },
     {
-      "name": "Tailwind Utility Classes",
-      "scope": [
-        "string.quoted.double.html class",
-        "string.quoted.single.html class",
-        "meta.attribute.class.html string.quoted",
-        "meta.attribute.class.vue string.quoted"
-      ],
-      "settings": { "foreground": "#31836A" }
-    },
-    {
       "name": "Attribute Values (HTML/JSX/Vue)",
       "scope": [
         "string.quoted.double.html",
@@ -201,6 +201,14 @@
         "string.quoted.single.vue"
       ],
       "settings": { "foreground": "#2F7C61" }
+    },
+    {
+      "name": "Tailwind Utility Classes",
+      "scope": [
+        "string.quoted.double.html class",
+        "string.quoted.single.html class"
+      ],
+      "settings": { "foreground": "#31836A" }
     },
     {
       "name": "HTML Text Content",
@@ -234,22 +242,22 @@
         "entity.name.namespace",
         "entity.name.type"
       ],
-      "settings": { "foreground": "#4b5ebd" }
+      "settings": { "foreground": "#4B5EBD" }
     },
     {
       "name": "Strings (Generic)",
       "scope": ["string", "punctuation.definition.string"],
-      "settings": { "foreground": "#2f7c61" }
+      "settings": { "foreground": "#2F7C61" }
     },
     {
       "name": "Variables",
       "scope": ["variable", "meta.definition.variable.name"],
-      "settings": { "foreground": "#4ab5b4" }
+      "settings": { "foreground": "#4AB5B4" }
     },
     {
       "name": "Parameters",
       "scope": ["variable.parameter", "meta.function.parameter"],
-      "settings": { "foreground": "#489dac" }
+      "settings": { "foreground": "#489DAC" }
     },
     {
       "name": "Constants / Language / Character",
