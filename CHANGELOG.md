@@ -1,3 +1,25 @@
+## [1.5.2] - 2025-10-10
+
+🎨 Visual Refinement & Readability Improvements
+
+A focused maintenance release refining internal UI components across all Harmonia variants - enhancing legibility, contrast balance, and interface depth without altering each theme's personality.
+
+### Updated
+
+- Global Adjustments
+- Tuned quickInput family:
+  - Balanced background brightness for better separation from editor panels.
+  - Improved text and icon contrast inside the command palette.
+- Enhanced input components:
+  - Adjusted background and border tones for clearer field outlines.
+  - Refined placeholder text color for optimal readability under all modes.
+- Unified sideBar and sectionHeader tones:
+  - Slightly lighter backgrounds for smoother depth perception.
+  - Better alignment between editor and sidebar contrast levels.
+- Improved scmGraph and ghost text visibility:
+  - editorGhostText.foreground now softer and more readable.
+  - Adjusted scmGraph.historyItemRefColor for visual balance.
+
 ## [1.5.1] - 2025-10-07
 
 ### Updated
