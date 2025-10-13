@@ -1,8 +1,5 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Harmonia Pastel",
-  "semanticHighlighting": true,
-  "type": "dark",
   "colors": {
     "activityBar.background": "#1d1c28",
     "activityBar.border": "#00000000",
@@ -17,7 +14,14 @@
     "button.background": "#b7a0ff",
     "button.foreground": "#1a1b26",
     "button.hoverBackground": "#a48be0",
-    "dropdown.border": "#00000000",
+    "checkbox.background": "#0F1618",
+    "checkbox.border": "#1D2A2D",
+    "checkbox.foreground": "#E3F2F2",
+    "descriptionForeground": "#9FC7C5",
+    "dropdown.background": "#0F1618",
+    "dropdown.border": "#1D2A2D",
+    "dropdown.foreground": "#E3F2F2",
+    "dropdown.listBackground": "#0F1618",
     "editor.background": "#1d1c28",
     "editor.findMatchBackground": "#b7a0ff66",
     "editor.findMatchHighlightBackground": "#b7a0ff33",
@@ -47,6 +51,7 @@
     "editorLineNumber.foreground": "#575a74",
     "editorWhitespace.foreground": "#37384a",
     "focusBorder": "#00000000",
+    "foreground": "#E3F2F2",
     "gitDecoration.addedResourceForeground": "#b0e3c5",
     "gitDecoration.conflictingResourceForeground": "#f9d79f",
     "gitDecoration.deletedResourceForeground": "#f5b2b7",
@@ -55,6 +60,8 @@
     "gitDecoration.renamedResourceForeground": "#a5d8f7",
     "gitDecoration.submoduleResourceForeground": "#f0b4d6",
     "gitDecoration.untrackedResourceForeground": "#c1eed3",
+    "inlineparameters.annotationBackground": "#212435",
+    "inlineparameters.annotationForeground": "#BFD4FF",
     "input.background": "#20222A",
     "input.border": "#262A36",
     "input.foreground": "#E8E8F0",
@@ -88,6 +95,17 @@
     "scmGraph.historyItemHoverLabelForeground": "#1d1c28",
     "scmGraph.historyItemRefColor": "#A5D8F7",
     "scmGraph.historyItemRemoteRefColor": "#b9e9cf",
+    "settings.checkboxBackground": "#0F1618",
+    "settings.checkboxBorder": "#1D2A2D",
+    "settings.checkboxForeground": "#E3F2F2",
+    "settings.dropdownBackground": "#0F1618",
+    "settings.dropdownBorder": "#1D2A2D",
+    "settings.dropdownForeground": "#E3F2F2",
+    "settings.headerForeground": "#E3F2F2",
+    "settings.modifiedItemIndicator": "#7FE0D1",
+    "settings.textInputBackground": "#142022",
+    "settings.textInputBorder": "#1D2A2D",
+    "settings.textInputForeground": "#E3F2F2",
     "sideBar.background": "#1d1c28",
     "sideBar.foreground": "#e6e6f0",
     "sideBarSectionHeader.background": "#1d1c28",
@@ -126,10 +144,12 @@
     "terminal.foreground": "#e6e6f0",
     "terminal.hoverHighlightBackground": "#2a293933",
     "terminal.tab.activeBorder": "#b7a0ff",
-    "textLink.activeForeground": "#b0e3c5",
-    "textLink.foreground": "#a5d8f7",
+    "textLink.activeForeground": "#9AE9DC",
+    "textLink.foreground": "#7FE0D1",
     "titleBar.activeBackground": "#1d1c28"
   },
+  "name": "Harmonia Aurora",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comments",
@@ -413,5 +433,6 @@
         "foreground": "#f7a3a8"
       }
     }
-  ]
+  ],
+  "type": "dark"
 }

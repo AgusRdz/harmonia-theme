@@ -1,8 +1,5 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Harmonia Light",
-  "semanticHighlighting": true,
-  "type": "light",
   "colors": {
     "activityBar.background": "#eceef1",
     "activityBar.border": "#00000000",
@@ -18,12 +15,19 @@
     "button.border": "#00000000",
     "button.foreground": "#2e3440",
     "button.hoverBackground": "#B895E1",
+    "checkbox.background": "#FAFBFF",
+    "checkbox.border": "#D5DBE9",
+    "checkbox.foreground": "#222435",
+    "descriptionForeground": "#59607A",
     "diffEditor.border": "#d0d3d6",
     "diffEditor.insertedLineBackground": "#bde7cb20",
     "diffEditor.insertedTextBackground": "#489d6a66",
     "diffEditor.removedLineBackground": "#f2bcbc20",
     "diffEditor.removedTextBackground": "#b1464666",
-    "dropdown.border": "#00000000",
+    "dropdown.background": "#FAFBFF",
+    "dropdown.border": "#D5DBE9",
+    "dropdown.foreground": "#222435",
+    "dropdown.listBackground": "#FAFBFF",
     "editor.background": "#eceef1",
     "editor.focusedStackFrameHighlightBackground": "#00000000",
     "editor.foreground": "#2d2d2d",
@@ -50,6 +54,7 @@
     "editorLineNumber.foreground": "#7a7f89",
     "editorWhitespace.foreground": "#c3c7ce",
     "focusBorder": "#00000000",
+    "foreground": "#222435",
     "gitDecoration.addedResourceForeground": "#7ebf87",
     "gitDecoration.conflictingResourceForeground": "#e07b56",
     "gitDecoration.deletedResourceForeground": "#d76585",
@@ -58,6 +63,8 @@
     "gitDecoration.renamedResourceForeground": "#6eaadb",
     "gitDecoration.submoduleResourceForeground": "#8a8fa4",
     "gitDecoration.untrackedResourceForeground": "#7ebf87",
+    "inlineparameters.annotationBackground": "#E8E8EE",
+    "inlineparameters.annotationForeground": "#4C4C66",
     "input.background": "#FFFFFF",
     "input.border": "#D0D6E6",
     "input.foreground": "#1A1A1A",
@@ -92,6 +99,17 @@
     "scmGraph.historyItemRefColor": "#6EAADB",
     "scmGraph.historyItemRemoteRefColor": "#7ebf87",
     "scrollbar.shadow": "#00000020",
+    "settings.checkboxBackground": "#FAFBFF",
+    "settings.checkboxBorder": "#D5DBE9",
+    "settings.checkboxForeground": "#222435",
+    "settings.dropdownBackground": "#FAFBFF",
+    "settings.dropdownBorder": "#D5DBE9",
+    "settings.dropdownForeground": "#222435",
+    "settings.headerForeground": "#1C2033",
+    "settings.modifiedItemIndicator": "#7B5CE6",
+    "settings.textInputBackground": "#FFFFFF",
+    "settings.textInputBorder": "#D5DBE9",
+    "settings.textInputForeground": "#222435",
     "sideBar.background": "#eceef1",
     "sideBar.border": "#d0d3d6",
     "sideBar.foreground": "#3a3a3a",
@@ -137,10 +155,12 @@
     "terminal.selectionBackground": "#D4DBE8",
     "terminal.tab.activeBorder": "#A454CB",
     "terminalCursor.foreground": "#3A3A3A",
-    "textLink.activeForeground": "#a3d9a5",
-    "textLink.foreground": "#83bde7",
+    "textLink.activeForeground": "#1E55C8",
+    "textLink.foreground": "#2F6CE0",
     "titleBar.activeBackground": "#eceef1"
   },
+  "name": "Harmonia Light",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comments",
@@ -424,5 +444,6 @@
         "foreground": "#ec7279"
       }
     }
-  ]
+  ],
+  "type": "light"
 }

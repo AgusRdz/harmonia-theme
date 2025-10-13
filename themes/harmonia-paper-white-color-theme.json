@@ -1,8 +1,5 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Harmonia Paper White",
-  "semanticHighlighting": true,
-  "type": "light",
   "colors": {
     "activityBar.background": "#FFFFFF",
     "activityBar.border": "#00000000",
@@ -18,9 +15,14 @@
     "button.border": "#00000000",
     "button.foreground": "#1A1A1A",
     "button.hoverBackground": "#D5D5D5",
+    "checkbox.background": "#FFFFFF",
+    "checkbox.border": "#D9DEE8",
+    "checkbox.foreground": "#23252C",
+    "descriptionForeground": "#58607A",
     "dropdown.background": "#FFFFFF",
-    "dropdown.border": "#DDDDDD",
-    "dropdown.foreground": "#1A1A1A",
+    "dropdown.border": "#D9DEE8",
+    "dropdown.foreground": "#23252C",
+    "dropdown.listBackground": "#FFFFFF",
     "editor.background": "#FFFFFF",
     "editor.findMatchBackground": "#CFE8FC66",
     "editor.findMatchHighlightBackground": "#CFE8FC33",
@@ -43,6 +45,7 @@
     "editorLineNumber.foreground": "#A9AEB6",
     "editorWhitespace.foreground": "#E2E6EC",
     "focusBorder": "#00000000",
+    "foreground": "#23252C",
     "gitDecoration.addedResourceForeground": "#2E7D32",
     "gitDecoration.conflictingResourceForeground": "#B26A00",
     "gitDecoration.deletedResourceForeground": "#C2410C",
@@ -51,6 +54,8 @@
     "gitDecoration.renamedResourceForeground": "#0E7490",
     "gitDecoration.submoduleResourceForeground": "#7B3FBF",
     "gitDecoration.untrackedResourceForeground": "#176C2B",
+    "inlineparameters.annotationBackground": "#F5F5F8",
+    "inlineparameters.annotationForeground": "#555577",
     "input.background": "#FFFFFF",
     "input.border": "#DADFEA",
     "input.foreground": "#1A1A1A",
@@ -81,6 +86,17 @@
     "scmGraph.historyItemHoverLabelForeground": "#FFFFFF",
     "scmGraph.historyItemRefColor": "#3574A3",
     "scmGraph.historyItemRemoteRefColor": "#2E7D32",
+    "settings.checkboxBackground": "#FFFFFF",
+    "settings.checkboxBorder": "#D9DEE8",
+    "settings.checkboxForeground": "#23252C",
+    "settings.dropdownBackground": "#FFFFFF",
+    "settings.dropdownBorder": "#D9DEE8",
+    "settings.dropdownForeground": "#23252C",
+    "settings.headerForeground": "#1E2030",
+    "settings.modifiedItemIndicator": "#B06AB3",
+    "settings.textInputBackground": "#FFFFFF",
+    "settings.textInputBorder": "#D9DEE8",
+    "settings.textInputForeground": "#23252C",
     "sideBar.background": "#FFFFFF",
     "sideBar.border": "#E0E0E0",
     "sideBar.foreground": "#1A1A1A",
@@ -123,10 +139,12 @@
     "terminal.background": "#FFFFFF",
     "terminal.foreground": "#2D2D2D",
     "terminalCursor.foreground": "#111827",
-    "textLink.activeForeground": "#4B5EBD",
-    "textLink.foreground": "#3574A3",
+    "textLink.activeForeground": "#264FC0",
+    "textLink.foreground": "#3967D8",
     "titleBar.activeBackground": "#FFFFFF"
   },
+  "name": "Harmonia Paper White",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comments",
@@ -410,5 +428,6 @@
         "foreground": "#ec7279"
       }
     }
-  ]
+  ],
+  "type": "light"
 }

@@ -1,8 +1,5 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Harmonia OLED",
-  "semanticHighlighting": true,
-  "type": "dark",
   "colors": {
     "activityBar.background": "#000000",
     "activityBar.border": "#000000",
@@ -19,9 +16,14 @@
     "button.border": "#0A0B0E",
     "button.foreground": "#E2E2E8",
     "button.hoverBackground": "#B99EF033",
-    "dropdown.background": "#0C0D12",
-    "dropdown.border": "#0A0B0E",
-    "dropdown.foreground": "#E2E2E8",
+    "checkbox.background": "#000000",
+    "checkbox.border": "#1B1F2E",
+    "checkbox.foreground": "#E8ECF8",
+    "descriptionForeground": "#9AA5C0",
+    "dropdown.background": "#000000",
+    "dropdown.border": "#1B1F2E",
+    "dropdown.foreground": "#E8ECF8",
+    "dropdown.listBackground": "#000000",
     "editor.background": "#000000",
     "editor.findMatchBackground": "#FFB74D66",
     "editor.findMatchHighlightBackground": "#FFB74D33",
@@ -62,7 +64,7 @@
     "editorWidget.border": "#0A0B0E",
     "editorWidget.foreground": "#E2E2E8",
     "focusBorder": "#00000000",
-    "foreground": "#E2E2E8",
+    "foreground": "#E8ECF8",
     "gitDecoration.addedResourceForeground": "#A7DEAE",
     "gitDecoration.conflictingResourceForeground": "#E1B37A",
     "gitDecoration.deletedResourceForeground": "#E8848A",
@@ -71,6 +73,8 @@
     "gitDecoration.renamedResourceForeground": "#96D7D4",
     "gitDecoration.submoduleResourceForeground": "#C5A6F2",
     "gitDecoration.untrackedResourceForeground": "#D6D6DE",
+    "inlineparameters.annotationBackground": "#000000",
+    "inlineparameters.annotationForeground": "#D0D0E0",
     "input.background": "#141414",
     "input.border": "#1E1E1E",
     "input.foreground": "#E2E2E8",
@@ -111,6 +115,17 @@
     "scrollbarSlider.activeBackground": "#FFFFFF4D",
     "scrollbarSlider.background": "#FFFFFF1A",
     "scrollbarSlider.hoverBackground": "#FFFFFF33",
+    "settings.checkboxBackground": "#000000",
+    "settings.checkboxBorder": "#1B1F2E",
+    "settings.checkboxForeground": "#E8ECF8",
+    "settings.dropdownBackground": "#000000",
+    "settings.dropdownBorder": "#1B1F2E",
+    "settings.dropdownForeground": "#E8ECF8",
+    "settings.headerForeground": "#E8ECF8",
+    "settings.modifiedItemIndicator": "#88C3FF",
+    "settings.textInputBackground": "#0A0D18",
+    "settings.textInputBorder": "#1B1F2E",
+    "settings.textInputForeground": "#E8ECF8",
     "sideBar.background": "#000000",
     "sideBar.border": "#0A0B0E",
     "sideBar.foreground": "#DADAE4",
@@ -158,13 +173,15 @@
     "terminal.findMatchHighlightBackground": "#B99EF022",
     "terminal.foreground": "#E2E2E8",
     "terminal.selectionBackground": "#00BFFF66",
-    "textLink.activeForeground": "#b88ce8",
-    "textLink.foreground": "#8bd4e9",
+    "textLink.activeForeground": "#A8D4FF",
+    "textLink.foreground": "#88C3FF",
     "titleBar.activeBackground": "#000000",
     "titleBar.activeForeground": "#E2E2E8",
     "titleBar.inactiveBackground": "#0A0B0E",
     "titleBar.inactiveForeground": "#7B8094"
   },
+  "name": "Harmonia OLED",
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comments",
@@ -534,5 +551,6 @@
         "foreground": "#E8848A"
       }
     }
-  ]
+  ],
+  "type": "dark"
 }

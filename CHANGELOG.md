@@ -1,3 +1,34 @@
+### [1.5.3] - 2025-10-13
+
+🧩 Interface & Visual Cohesion Enhancements
+
+A refinement-focused update improving menu components, settings controls, and text inputs across all Harmonia variants.
+This release deepens consistency between panels and interactive UI elements - enhancing usability without altering the soul of each theme.
+
+### Updated
+
+- Global interface adjustments:
+  - Added missing visual tokens for dropdowns, checkboxes, and settings inputs.
+  - Unified color balance across dropdown._, checkbox._, and settings.\* properties.
+  - Improved structural hierarchy and subtle depth across elevated surfaces.
+- Input and placeholder consistency:
+  - Refined input.background and input.border for cleaner contrast.
+  - Adjusted placeholder tones (input.placeholderForeground) for better readability in all modes.
+- Settings UI refinements:
+  - Added consistent backgrounds and borders for settings dropdowns and text inputs.
+  - Calibrated descriptionForeground and headerForeground for clarity in preferences panels.
+- Improved link visibility and indicators:
+  - Unified textLink.foreground and textLink.activeForeground across all variants.
+  - Adjusted settings.modifiedItemIndicator tones to match each palette’s accent color.
+
+### Theme Highlights
+
+- Dark / Noir: deeper contrast tuning for inputs and dropdowns with reduced noise and improved edge clarity.
+- Aurora: smoother transitions within cool-toned UI elements for a calmer appearance.
+- Light / Paper White: increased legibility in bright environments, refined border contrast.
+- OLED True Black: enhanced separation of interactive components while preserving absolute black energy efficiency.
+- Dark High Contrast: maximized clarity in all controls and text fields, preserving chromatic harmony.
+
 ## [1.5.2] - 2025-10-10
 
 🎨 Visual Refinement & Readability Improvements
