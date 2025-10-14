@@ -1,4 +1,23 @@
-### [1.5.3] - 2025-10-13
+## [1.5.4] - 2025-10-14
+
+🩶 Status Bar Alignment & Visual Integrity
+
+A focused refinement ensuring status bar consistency across all Harmonia variants.
+This update standardizes tones, contrast, and behavior under every editor state - restoring full visual harmony across dark, light, and high-contrast environments.
+
+### Updated
+
+- Unified Status Bar System:
+  - Adjusted statusBar.background and related tokens for consistent depth and tone balance.
+  - Ensured seamless color continuity across debug, noFolder, and remote contexts.
+  - Improved statusBar.foreground to maintain clarity under all light conditions.
+- Cross-variant consistency:
+  - Normalized brightness and contrast across all themes:
+    - Dark / Noir / OLED now share cohesive neutral depth levels.
+    - Aurora / Light / Paper White refined for subtler separation without glare.
+    - High Contrast retains accessibility edge while matching overall tone logic.
+
+## [1.5.3] - 2025-10-13
 
 🧩 Interface & Visual Cohesion Enhancements
 
