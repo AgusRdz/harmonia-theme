@@ -30,6 +30,7 @@
     "dropdown.listBackground": "#0B0C12",
     "editor.background": "#0B0C12",
     "editor.focusedStackFrameHighlightBackground": "#00000000",
+    "editor.foldBackground": "#00000000",
     "editor.foreground": "#ECECF4",
     "editor.inactiveSelectionBackground": "#3A3F6BCC",
     "editor.lineHighlightBackground": "#161826",

@@ -1,3 +1,16 @@
+## [1.5.5] - 2025-10-15
+
+🎯 Noise-free Folding
+
+A small but meaningful update focused on preserving visual flow across all Harmonia Core themes.
+
+### Updated
+
+- editor.foldBackground → #00000000 (transparent) in all variants (Dark, Noir, Light, Aurora, Paper White, OLED True Black, Dark High Contrast).
+- Removes the highlighted strip on folded lines.
+- Reduces visual noise and keeps a clean, uniform editor texture.
+- Keeps folding icons and controls fully visible in the gutter.
+
 ## [1.5.4] - 2025-10-14
 
 🩶 Status Bar Alignment & Visual Integrity

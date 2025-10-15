@@ -28,6 +28,7 @@
     "dropdown.foreground": "#E8E8F0",
     "dropdown.listBackground": "#121218",
     "editor.background": "#14121A",
+    "editor.foldBackground": "#00000000",
     "editor.foreground": "#d0d0e0",
     "editor.inactiveSelectionBackground": "#27243aAA",
     "editor.lineHighlightBackground": "#1C1A25",
