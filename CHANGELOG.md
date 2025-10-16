@@ -1,3 +1,18 @@
+### [1.5.6] - 2025-10-16
+
+🎨 Menu & Search Highlight Enhancements
+
+A small refinement release focused on improving contrast, clarity, and consistency across interactive elements.
+
+### Updated
+
+- Find & Replace highlights now use softer accent tones for better visual flow.
+- Menu and dropdown panels received balanced backgrounds and clearer selection states.
+- Text link colors adjusted for improved readability and hover distinction.
+- Quick input and picker groups refined to align with overall palette harmony.
+
+Subtle polish release - reinforcing visual comfort and consistency without altering theme identity.
+
 ## [1.5.5] - 2025-10-15
 
 🎯 Noise-free Folding
