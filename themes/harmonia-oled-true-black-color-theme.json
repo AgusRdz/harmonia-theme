@@ -9,6 +9,9 @@
     "activityBarBadge.foreground": "#14121A",
     "badge.background": "#0C0D12",
     "badge.foreground": "#E2E2E8",
+    "banner.background": "#0A0B0E",
+    "banner.foreground": "#E8ECF8",
+    "banner.iconForeground": "#88C3FF",
     "breadcrumb.background": "#000000",
     "breadcrumb.focusForeground": "#B99EF0",
     "breadcrumb.foreground": "#7B8094",
@@ -20,6 +23,7 @@
     "checkbox.border": "#1B1F2E",
     "checkbox.foreground": "#E8ECF8",
     "descriptionForeground": "#9AA5C0",
+    "disabledForeground": "#5A5F7A",
     "dropdown.background": "#000000",
     "dropdown.border": "#1B1F2E",
     "dropdown.foreground": "#E8ECF8",
@@ -73,6 +77,9 @@
     "gitDecoration.renamedResourceForeground": "#96D7D4",
     "gitDecoration.submoduleResourceForeground": "#C5A6F2",
     "gitDecoration.untrackedResourceForeground": "#D6D6DE",
+    "inlineChat.background": "#0B0C10",
+    "inlineChat.border": "#0F1014",
+    "inlineChatInput.background": "#0F1117",
     "inlineparameters.annotationBackground": "#000000",
     "inlineparameters.annotationForeground": "#D0D0E0",
     "input.background": "#141414",
@@ -99,6 +106,10 @@
     "menubar.selectionForeground": "#E2E2E8",
     "minimap.background": "#000000",
     "minimap.selectionHighlight": "#00BFFF80",
+    "notebook.cellBorderColor": "#14151C",
+    "notebook.cellEditorBackground": "#000000",
+    "notebook.cellHoverBackground": "#0A0B0E",
+    "notebook.focusedCellBackground": "#0A0B0E",
     "panel.background": "#000000",
     "panel.border": "#0A0B0E",
     "panelTitle.activeBorder": "#B99EF0",
@@ -146,9 +157,13 @@
     "statusBar.foreground": "#E2E2E8",
     "statusBar.noFolderBackground": "#000000",
     "statusBar.noFolderForeground": "#E2E2E8",
+    "statusBarItem.errorBackground": "#E8848A",
     "statusBarItem.hoverBackground": "#0C0D12",
+    "statusBarItem.prominentBackground": "#0F1014",
+    "statusBarItem.prominentHoverBackground": "#131520",
     "statusBarItem.remoteBackground": "#000000",
     "statusBarItem.remoteForeground": "#E2E2E8",
+    "statusBarItem.warningBackground": "#E1B37A",
     "tab.activeBackground": "#000000",
     "tab.activeBorderTop": "#B99EF0",
     "tab.activeForeground": "#FFFFFF",
@@ -179,6 +194,9 @@
     "terminal.findMatchHighlightBackground": "#B99EF022",
     "terminal.foreground": "#E2E2E8",
     "terminal.selectionBackground": "#00BFFF66",
+    "testing.iconFailed": "#E8848A",
+    "testing.iconPassed": "#A7DEAE",
+    "testing.runAction": "#88C3FF",
     "textLink.activeForeground": "#A8D4FF",
     "textLink.foreground": "#88C3FF",
     "titleBar.activeBackground": "#000000",
@@ -555,6 +573,73 @@
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#E8848A"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.keyword"],
+      "settings": {
+        "foreground": "#B99EF0"
+      }
+    },
+    {
+      "scope": ["support.type.builtin"],
+      "settings": {
+        "foreground": "#B8BDF0"
+      }
+    },
+    {
+      "scope": ["variable.language"],
+      "settings": {
+        "foreground": "#96D7D4"
+      }
+    },
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#8FAED8"
+      }
+    },
+    {
+      "scope": ["meta.decorator"],
+      "settings": {
+        "foreground": "#88C3FFD0"
+      }
+    },
+    {
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "#C8C8D2"
+      }
+    },
+    {
+      "scope": ["punctuation.accessor"],
+      "settings": {
+        "foreground": "#E2E2E899"
+      }
+    },
+    {
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#E2E2E8B3"
+      }
+    },
+    {
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#96D7D4CC"
+      }
+    },
+    {
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "#A7DEAECC"
+      }
+    },
+    {
+      "scope": ["variable.language.this"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#9CC0FFCC"
       }
     }
   ],

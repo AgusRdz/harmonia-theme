@@ -1,3 +1,29 @@
+## [1.5.7] - 2025-10-17
+
+🎨 UI Alignment & Syntax Coverage Expansion
+
+This release focuses on consistency and completeness - extending the refinements from Harmonia Dark across all core variants, ensuring every theme now provides a uniform experience in advanced editor states and inline components.
+
+### Added
+
+- ✨ Extended UI support
+  - Added missing definitions for banner, inlineChat, notebook, mergeEditor, and testing elements across all variants.
+  - Improved color consistency for warning and info states.
+  - Added subtle hover and background cues with proper transparency for less visual noise.
+- 🧩 Token coverage alignment
+  - Expanded tokenColors for advanced syntax scopes such as:
+- Keyword punctuation
+  - Built-in & primitive types
+  - Language variables (this, super, arguments)
+  - Object literal keys and decorators
+  - Regex patterns and escapes
+- All values adapted per variant to preserve the personality and tonal hierarchy of each theme.
+
+### Improved
+
+- Unified contrast balance for highlights and warnings.
+- Ensured semantic parity between dark and light environments.
+
 ### [1.5.6] - 2025-10-16
 
 🎨 Menu & Search Highlight Enhancements
