@@ -129,7 +129,7 @@
     "quickInputTitle.background": "#050508",
     "scmGraph.historyItemHoverLabelForeground": "#000000",
     "scmGraph.historyItemRefColor": "#8BD4E9",
-    "scrollbar.shadow": "#00000080",
+    "scrollbar.shadow": "#00000000",
     "scrollbarSlider.activeBackground": "#FFFFFF4D",
     "scrollbarSlider.background": "#FFFFFF1A",
     "scrollbarSlider.hoverBackground": "#FFFFFF33",

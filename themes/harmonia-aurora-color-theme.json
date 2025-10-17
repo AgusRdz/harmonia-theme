@@ -127,6 +127,7 @@
     "scmGraph.historyItemHoverLabelForeground": "#1d1c28",
     "scmGraph.historyItemRefColor": "#A5D8F7",
     "scmGraph.historyItemRemoteRefColor": "#b9e9cf",
+    "scrollbar.shadow": "#00000000",
     "settings.checkboxBackground": "#0F1618",
     "settings.checkboxBorder": "#1D2A2D",
     "settings.checkboxForeground": "#E3F2F2",

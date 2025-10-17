@@ -1,3 +1,11 @@
+## [1.5.8] - 2025-10-17
+
+## Updated
+
+- Restored visual neutrality:
+  - scrollbar.shadow reverted to full transparency (#00000000) across all themes.
+  - Removes the faint top shadow that appeared when scrolling editors, terminals, or panels.
+
 ## [1.5.7] - 2025-10-17
 
 🎨 UI Alignment & Syntax Coverage Expansion
