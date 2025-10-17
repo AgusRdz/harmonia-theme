@@ -1,3 +1,16 @@
+## [1.5.9] - 2025-10-17
+
+Refined Diff & Overview Consistency
+
+A minimal update aligning diff editor visuals across all Harmonia variants.
+Subtle transparency adjustments improve focus and visual harmony while preserving each theme’s contrast identity.
+
+### Updated
+
+- Unified diffEditor._ and diffEditorGutter._ tones for balanced clarity.
+- Reduced visual noise in added/removed regions with smoother transparency.
+- Improved consistency across editorOverviewRuler in all variants.
+
 ## [1.5.8] - 2025-10-17
 
 ## Updated
