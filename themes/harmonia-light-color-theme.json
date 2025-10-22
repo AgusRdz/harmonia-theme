@@ -210,6 +210,22 @@
   },
   "name": "Harmonia Light",
   "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "class": "#4B5EBD",
+    "decorator": "#4B5EBDD0",
+    "enumMember": "#D4AB74",
+    "function": "#4B5EBD",
+    "interface": "#4B5EBD",
+    "method": "#4B5EBD",
+    "namespace": "#4B5EBD",
+    "operator": "#4A4F62B3",
+    "parameter": "#489DAC",
+    "property": "#3B3F48",
+    "property.declaration": "#4A4F62",
+    "regexp": "#4AB5B4",
+    "type": "#4B5EBD",
+    "variable.readonly": "#D4AB74"
+  },
   "tokenColors": [
     {
       "name": "Comments",
@@ -226,7 +242,7 @@
     },
     {
       "name": "Comment Punctuation",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": ["punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#808890"
@@ -369,7 +385,12 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "meta.definition.variable.name"],
+      "scope": [
+        "variable",
+        "meta.definition.variable.name",
+        "support.variable",
+        "variable.other.php"
+      ],
       "settings": {
         "foreground": "#4AB5B4"
       }
@@ -554,11 +575,72 @@
       }
     },
     {
-      "scope": ["variable.language.this"],
+      "name": "PHP use keyword",
+      "scope": [
+        "keyword.other.use",
+        "keyword.other.namespace.use",
+        "keyword.other.use.php"
+      ],
+      "settings": {
+        "foreground": "#8A6FD0"
+      }
+    },
+    {
+      "name": "Class and implements keywords",
+      "scope": [
+        "keyword.declaration.class",
+        "storage.type.class",
+        "keyword.declaration.interface",
+        "keyword.other.implements",
+        "storage.modifier.implements"
+      ],
+      "settings": {
+        "foreground": "#8A6FD0"
+      }
+    },
+    {
+      "name": "Type and namespace identifiers",
+      "scope": [
+        "entity.name.type",
+        "entity.name.type.class",
+        "entity.name.type.interface",
+        "entity.other.inherited-class",
+        "support.class",
+        "support.type",
+        "entity.name.namespace",
+        "support.other.namespace"
+      ],
+      "settings": {
+        "foreground": "#6A79D6"
+      }
+    },
+    {
+      "name": "Namespace and punctuation separators",
+      "scope": [
+        "punctuation.separator.namespace",
+        "punctuation.accessor",
+        "punctuation.separator",
+        "punctuation.separator.inheritance"
+      ],
+      "settings": {
+        "foreground": "#9090A5"
+      }
+    },
+    {
+      "name": "this/self",
+      "scope": ["variable.language.this", "variable.language.self"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#6EAADBCC"
+        "foreground": "#6A79D6CC"
       }
+    },
+    {
+      "name": "PHP variable sigil matches variable color",
+      "scope": [
+        "punctuation.definition.variable.php",
+        "variable.other.php punctuation.definition.variable"
+      ],
+      "settings": { "foreground": "#6B7088" }
     }
   ],
   "type": "light"

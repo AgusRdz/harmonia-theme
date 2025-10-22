@@ -1,3 +1,21 @@
+## [v1.6.0] - 2025-10-22
+
+🎯 Syntax Cohesion & Namespace Refinement
+
+A precision-focused release ensuring syntax and token consistency across all variants.
+This update completes the cross-theme standardization started in 1.5.x - refining PHP symbol behavior, namespace coloration, and scope alignment for easier long-term maintenance and full visual harmony.
+
+Updated
+
+- Unified token scopes across all Harmonia variants (Dark, Noir, Aurora, OLED, Light, High Contrast, and Paper White).
+- Standardized syntax handling for:
+  - use statements - keyword isolated, namespace paths unified in tone.
+  - class ... implements ... definitions - keyword emphasis restored, balanced interface highlighting.
+  - Backslashes (\) - neutralized color for smoother namespace readability.
+  - PHP variable sigil $ - now uses a neutral delimiter tone, harmonized across all variants.
+  - this/self - retains italic contextual highlight for language-level clarity.
+- Improved cross-theme parity - all variants now share a complete, non-redundant scope set for simpler synchronization and updates.
+
 ## [1.5.9] - 2025-10-17
 
 Refined Diff & Overview Consistency
