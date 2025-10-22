@@ -571,7 +571,7 @@
         "keyword.other.use.php"
       ],
       "settings": {
-        "foreground": "#C9A7F5"
+        "foreground": "#B99EF0"
       }
     },
     {
@@ -584,7 +584,7 @@
         "storage.modifier.implements"
       ],
       "settings": {
-        "foreground": "#C9A7F5"
+        "foreground": "#B99EF0"
       }
     },
     {
@@ -600,7 +600,7 @@
         "support.other.namespace"
       ],
       "settings": {
-        "foreground": "#B6C3FF"
+        "foreground": "#9CC0FF"
       }
     },
     {
@@ -620,7 +620,7 @@
       "scope": ["variable.language.this", "variable.language.self"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#8CC6EFCC"
+        "foreground": "#9CB8FFCC"
       }
     },
     {
@@ -629,7 +629,7 @@
         "punctuation.definition.variable.php",
         "variable.other.php punctuation.definition.variable"
       ],
-      "settings": { "foreground": "#B6BDCFB3" }
+      "settings": { "foreground": "#E2E2E899" }
     }
   ],
   "type": "dark"

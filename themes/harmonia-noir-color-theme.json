@@ -573,7 +573,7 @@
         "keyword.other.use.php"
       ],
       "settings": {
-        "foreground": "#A78BFA"
+        "foreground": "#B99EF0"
       }
     },
     {
@@ -586,7 +586,7 @@
         "storage.modifier.implements"
       ],
       "settings": {
-        "foreground": "#A78BFA"
+        "foreground": "#B99EF0"
       }
     },
     {
@@ -622,7 +622,7 @@
       "scope": ["variable.language.this", "variable.language.self"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#9CC0FFCC"
+        "foreground": "#9CB8FFCC"
       }
     },
     {
@@ -631,7 +631,7 @@
         "punctuation.definition.variable.php",
         "variable.other.php punctuation.definition.variable"
       ],
-      "settings": { "foreground": "#C8CAD6B3" }
+      "settings": { "foreground": "#E2E2E899" }
     }
   ],
   "type": "dark"

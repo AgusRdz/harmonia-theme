@@ -1,3 +1,20 @@
+## [v1.6.1] - 2025-10-22
+
+🎨 Readability & Variable Contrast Polish
+
+A focused refinement ensuring that PHP variables, object references, and imported namespaces maintain optimal visibility and tone harmony - especially within Light and Paper White environments.
+
+### Fixed
+
+- PHP variable sigils ($) now use a slightly darker neutral gray in bright themes (#5A6275) to prevent visual fading against light backgrounds.
+- this/self references receive subtle blue tone adjustments for consistent contrast and semantic balance across all variants.
+- Namespace and class paths retain distinct cool-blue tones for better structural clarity without introducing noise.
+
+### Improved
+
+- Enhanced tonal cohesion between keywords, types, and variables - maintaining Harmonia’s minimalist philosophy while improving code scanning comfort.
+- Restored uniform syntax perception between dark and light environments.
+
 ## [v1.6.0] - 2025-10-22
 
 🎯 Syntax Cohesion & Namespace Refinement
@@ -5,7 +22,7 @@
 A precision-focused release ensuring syntax and token consistency across all variants.
 This update completes the cross-theme standardization started in 1.5.x - refining PHP symbol behavior, namespace coloration, and scope alignment for easier long-term maintenance and full visual harmony.
 
-Updated
+### Updated
 
 - Unified token scopes across all Harmonia variants (Dark, Noir, Aurora, OLED, Light, High Contrast, and Paper White).
 - Standardized syntax handling for:

@@ -322,13 +322,6 @@
       }
     },
     {
-      "name": "PHP variable sigil matches variable color",
-      "scope": ["punctuation.definition.variable.php"],
-      "settings": {
-        "foreground": "#96D7D4"
-      }
-    },
-    {
       "name": "HTML/JSX Tag Name",
       "scope": [
         "entity.name.tag",
