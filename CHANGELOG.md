@@ -1,3 +1,14 @@
+## [v1.6.3] - 2025-11-27
+
+### ✨ Introducing Harmonia Moonlit & Harmonia Daybreak
+
+Two new blue-accented variants join the Harmonia family, designed with the same calm, balanced aesthetic and low-fatigue philosophy that define the project.
+
+### Added
+
+- **Harmonia Moonlit** - A serene dark-blue variant with cool tones and comfortable contrast, ideal for extended coding sessions.
+- **Harmonia Daybreak** - A gentle light variant with soft sky-blue accents and neutral text balance, optimized for clarity in bright environments.
+
 ## [v1.6.2] - 2025-11-27
 
 🎨 Unified Inline UI & Input Surface Consistency
@@ -111,7 +122,7 @@ Subtle polish release - reinforcing visual comfort and consistency without alter
 
 🎯 Noise-free Folding
 
-A small but meaningful update focused on preserving visual flow across all Harmonia Core themes.
+A small but meaningful update focused on preserving visual flow across all Harmonia themes.
 
 ### Updated
 

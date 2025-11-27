@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/AgusRdz/harmonia-theme"
   },
-  "version": "1.6.2",
+  "version": "1.6.3",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -24,7 +24,9 @@
     "harmonia",
     "oled",
     "paper white",
-    "aurora"
+    "aurora",
+    "moonlit",
+    "daybreak"
   ],
   "icon": "icon.png",
   "license": "MIT",
@@ -64,6 +66,16 @@
         "label": "Harmonia Aurora",
         "uiTheme": "vs-dark",
         "path": "./themes/harmonia-aurora-color-theme.json"
+      },
+      {
+        "label": "Harmonia Moonlit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/harmonia-moonlit-color-theme.json"
+      },
+      {
+        "label": "Harmonia Daybreak",
+        "uiTheme": "vs",
+        "path": "./themes/harmonia-daybreak-color-theme.json"
       }
     ]
   },
