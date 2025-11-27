@@ -1,3 +1,15 @@
+## [v1.6.2] - 2025-11-27
+
+🎨 Unified Inline UI & Input Surface Consistency
+
+A cross-theme refinement ensuring that inline interaction elements, particularly the MCP/Inline Chat container and editor-adjacent inputs, retain the same tonal logic across all Harmonia variants. This update eliminates inconsistencies where light or mixed surfaces appeared inside dark themes (and vice-versa), restoring the seamless aesthetic expected from Harmonia.
+
+### Fixed
+
+`input.background` is now aligned with each theme's primary surface palette, preventing unexpected bright blocks within dark environments and dark blocks within light environments.
+
+Inline Chat and MCP task panels inherit the correct background tone for every variant, resolving contrast mismatches reported in Noir, Aurora, OLED, and Light.
+
 ## [v1.6.1] - 2025-10-22
 
 🎨 Readability & Variable Contrast Polish

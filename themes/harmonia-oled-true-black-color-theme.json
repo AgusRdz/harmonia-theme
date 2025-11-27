@@ -91,7 +91,7 @@
     "inlineChatInput.background": "#0F1117",
     "inlineparameters.annotationBackground": "#000000",
     "inlineparameters.annotationForeground": "#D0D0E0",
-    "input.background": "#141414",
+    "input.background": "#000000",
     "input.border": "#1E1E1E",
     "input.foreground": "#E2E2E8",
     "input.placeholderForeground": "#A8A8B8",
