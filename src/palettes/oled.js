@@ -85,8 +85,8 @@ export const oled = {
   borderSeparator: '#0A0B0E', // Menu separators
 
   // Selection & highlights
-  selection: '#2A4A6B', // Editor selection (muted blue, much softer)
-  selectionInactive: '#1A2A3B',
+  selection: '#1A2A3B', // Editor selection (very subtle blue)
+  selectionInactive: '#0F141A', // Very dark, barely visible
   listHover: '#0C0D12',
   listActive: '#0C0D12',
 

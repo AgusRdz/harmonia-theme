@@ -87,8 +87,8 @@ export const aurora = {
   // Selection & highlights
   selection: '#2F2E45', // Editor selection (softer purple-tint)
   selectionInactive: '#272636',
-  listHover: '#393850',
-  listActive: '#3d3c58',
+  listHover: '#1e1d2a', // Much darker, more subtle
+  listActive: '#1e1d2a', // Much darker, more subtle
 
   // Special states
   scrollbar: {

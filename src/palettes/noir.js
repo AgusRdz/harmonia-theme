@@ -87,8 +87,8 @@ export const noir = {
   // Selection & highlights
   selection: '#2B2440', // Editor selection (softer purple-tint)
   selectionInactive: '#221f31',
-  listHover: '#2F294A',
-  listActive: '#382F54',
+  listHover: '#1C1825', // Much darker, more subtle
+  listActive: '#1C1825', // Much darker, more subtle
 
   // Special states
   scrollbar: {

@@ -85,7 +85,7 @@
     "editor.linkedEditingBackground": "#4A7EC722",
     "editor.rangeHighlightBackground": "#E2E4E766",
     "editor.selectionBackground": "#D5DBE6",
-    "editor.inactiveLineHighlightBackground": "#00000000",
+    "editor.inactiveLineHighlightBackground": "#00000002",
     "editor.selectionHighlightBackground": "#D5DBE670",
     "editor.wordHighlightBackground": "#4A7EC71F",
     "editor.wordHighlightStrongBackground": "#4A7EC733",

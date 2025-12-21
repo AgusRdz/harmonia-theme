@@ -87,8 +87,8 @@ export const dark = {
   // Selection & highlights
   selection: '#283650', // Editor selection (softer)
   selectionInactive: '#252736',
-  listHover: '#393b58',
-  listActive: '#353753',
+  listHover: '#1f2130', // Much darker, more subtle
+  listActive: '#1f2130', // Much darker, more subtle
 
   // Special states
   scrollbar: {

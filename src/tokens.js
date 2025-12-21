@@ -122,7 +122,8 @@ export function generateColors(p) {
     'editor.rangeHighlightBackground': p.bg.elevated2 + '66',
     'editor.selectionBackground': p.selection,
     'editor.selectionForeground': p.type === 'dark' ? '#ffffff' : undefined,
-    'editor.inactiveLineHighlightBackground': '#00000000',
+    'editor.inactiveLineHighlightBackground':
+      p.type === 'dark' ? '#FFFFFF02' : '#00000002',
     'editor.selectionHighlightBackground':
       p.selection + (p.type === 'dark' ? '66' : '70'),
     'editor.wordHighlightBackground':

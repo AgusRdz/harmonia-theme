@@ -1,3 +1,19 @@
+## [v1.6.5] - 2025-12-21
+
+🔧 Critical Brightness Fixes
+
+Hot-fix release addressing excessive brightness in inactive states and list selections that slipped through in v1.6.4.
+
+### Fixed
+
+- **Inactive Line Highlight**: Set `editor.inactiveLineHighlightBackground` to extremely subtle `#FFFFFF02` instead of transparent (which caused fallback to bright defaults when editor loses focus).
+- **List Selection Brightness** (Dark/Noir/Moonlit/Aurora): Reduced `list.activeSelectionBackground` and `list.hoverBackground` by 60-65% to eliminate harsh highlighting in file trees and terminal tabs.
+- **OLED Selection Colors**: Further reduced selection brightness (`#2A4A6B` → `#1A2A3B`) and inactive selections (`#1A2A3B` → `#0F141A`) for optimal comfort on pure black displays.
+
+### Impact
+
+All dark themes now maintain truly subtle, fatigue-free highlighting in all states - active, inactive, focused, and unfocused.
+
 ## [v1.6.4] - 2025-12-21
 
 🎨 Visual Harmony Refinement
