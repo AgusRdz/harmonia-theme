@@ -1,3 +1,29 @@
+## [v1.6.4] - 2025-12-21
+
+🎨 Visual Harmony Refinement
+
+A comprehensive normalization pass across all 9 Harmonia variants, ensuring consistent visual hierarchy, reduced fatigue, and enhanced semantic clarity. This release refines the balance between code emphasis and background elements - bringing every theme to a calm, professional baseline optimized for extended coding sessions.
+
+### Improved
+
+- **Keyword De-emphasis**: Reduced brightness across all variants (5-15% depending on theme) to prevent keyword dominance and restore balanced visual hierarchy.
+- **Comment Tertiary Positioning**: Standardized comment luminance to ~45% (dark themes) and ~58% (light themes) for proper tertiary role without disappearing.
+- **Selection Softening**: Reduced selection intensity by ~8% in dark variants and OLED to minimize visual interruption during text operations.
+- **Highlighting Comfort**: Reduced brightness and saturation of all highlighting colors (selections, find matches, autocomplete) by 20-30% across all variants. Replaced harsh cyan with muted blues for significantly improved comfort during extended use.
+- **Active Line Highlight**: Transformed from visible bar to subtle "veil-like" overlay using extreme alpha transparency (`#FFFFFF06` dark, `#00000005` light).
+- **OLED Eye Strain Reduction**: Softened high-chroma colors on pure black backgrounds to reduce harsh contrast while maintaining true-black efficiency. Selection changed from harsh `#00BFFF` to muted `#2A4A6B`.
+- **High Contrast Balance**: Corrected overbright elements (L≈90%) down to L≈75-80%, emphasizing strong background/foreground separation over saturation competition.
+- **Aurora Pastel Normalization**: Applied aggressive luminance reduction (10%) across 6 tokens to eliminate visual noise from competing pastels.
+
+### Fixed
+
+- **Semantic Collapses**: Resolved 8 instances where different code elements shared identical colors (keyword=function, type=function, variable=parameter).
+- **Variable Legibility** (Daybreak): Changed from semi-transparent `#54596268` to opaque `#4AB5B4` for proper readability on light backgrounds.
+- **Hex Code Hygiene**: Normalized shorthand hex values (`#999` → `#999999`, `#888` → `#888888`) in Daybreak and Paper White for consistency.
+- **OLED Invalid Hex Codes**: Fixed malformed 10-character hex codes caused by double-alpha concatenation (e.g., `#00BFFF28AA` → `#00BFFFAA`).
+- **Inactive Panel Highlighting**: Removed solid white background in unfocused editor panels (`editor.inactiveLineHighlightBackground` now transparent).
+- **Cross-Variant Consistency**: Unified semantic token behavior and visual relationships across all 9 themes while preserving each variant's unique personality.
+
 ## [v1.6.3] - 2025-11-27
 
 ### ✨ Introducing Harmonia Moonlit & Harmonia Daybreak

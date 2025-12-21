@@ -3,17 +3,24 @@
   "displayName": "Harmonia Theme",
   "description": "A subtle, carefully crafted theme to reduce visual noise while coding.",
   "publisher": "AgusRdz",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/AgusRdz/harmonia-theme"
   },
-  "version": "1.6.3",
+  "version": "1.6.4",
   "engines": {
     "vscode": "^1.50.0"
   },
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "build": "node src/generator.js && npm run format",
+    "prebuild": "echo 'Building Harmonia themes...'",
+    "postbuild": "echo 'Build complete! Themes are in themes/ directory'",
+    "format": "prettier --write \"**/*.{js,json}\""
+  },
   "keywords": [
     "theme",
     "color-theme",

@@ -12,3 +12,9 @@ npx:
 
 package:
 	docker-compose exec harmonia npx vsce package
+
+build:
+	docker-compose exec harmonia npm run build
+
+format:
+	docker-compose exec harmonia npm run format

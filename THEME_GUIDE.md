@@ -64,6 +64,33 @@ If two rules target the same element:
 - The **more specific scope** wins.
 - If scopes have equal specificity, the **last rule defined** in the file takes precedence.
 
+### Semantic vs TextMate Highlighting
+
+Harmonia uses **both** semantic tokens and TextMate scopes for maximum compatibility:
+
+**When Semantic Highlighting is Active** (TypeScript/JavaScript with LSP):
+- Semantic tokens take precedence over TextMate scopes
+- Example: `function` semantic token → `#B8BDF0` (Harmonia Dark)
+- More accurate because it uses actual code analysis
+
+**When Semantic Highlighting is Unavailable** (plain JS, older extensions):
+- TextMate scopes provide fallback highlighting
+- Example: `entity.name.function` → `#B8BDF0` (Harmonia Dark)
+- Uses regex-based pattern matching
+
+**Design Philosophy:**
+- Both systems should produce visually similar results
+- Semantic colors are considered "canonical"
+- TextMate colors are tuned to match semantic appearance
+- This ensures consistency whether LSP is available or not
+
+**Example Mapping (Harmonia Dark):**
+```
+Semantic:  function → #B8BDF0 (lavender)
+TextMate:  entity.name.function → #B8BDF0 (lavender)
+Result:    Functions always look "lavender" regardless of LSP
+```
+
 ---
 
 ## 5. Common Scopes

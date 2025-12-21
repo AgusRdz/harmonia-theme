@@ -7,21 +7,23 @@ All variants are designed for long, focused coding sessions with soft, thoughtfu
 
 | Variant                | Mode  | Description                            | Palette                         |
 | ---------------------- | ----- | -------------------------------------- | ------------------------------- |
-| 🌑 **Dark**            | Dark  | Technical, focused, and balanced.      | `#1a1b26`, `#9CB8FF`, `#83D3B2` |
-| 🌌 **Noir**            | Dark  | Elegant, moody, and cinematic.         | `#14121A`, `#C2A0F5`, `#A8E0D2` |
-| 💎 **High Contrast**   | Dark  | Sharp and vibrant for high visibility. | `#1a1b26`, `#E3B1FF`, `#A9F0DA` |
-| 🖤 **OLED True Black** | Dark  | Pure black for OLED screens.           | `#000000`, `#B99EF0`, `#A7DEAE` |
+| 🌑 **Dark**            | Dark  | Technical, focused, and balanced.      | `#1a1b26`, `#9CB8FF`, `#a3d9a5` |
+| 🌌 **Noir**            | Dark  | Elegant, moody, and cinematic.         | `#14121A`, `#a788de`, `#9BCAD9` |
+| 🌙 **Moonlit**         | Dark  | Serene, blue-focused, and calm.        | `#1a1b26`, `#4493F8`, `#a3d9a5` |
+| 🌈 **Aurora**          | Dark  | Soft, colorful, and relaxing.          | `#1d1c28`, `#E8A2C8`, `#9dd5b8` |
+| 💎 **High Contrast**   | Dark  | Sharp and vivid for accessibility.     | `#0B0C12`, `#c296e8`, `#a0dec0` |
+| 🖤 **OLED True Black** | Dark  | Pure black for OLED screens.           | `#000000`, `#a68edb`, `#98d1b8` |
 | ☀️ **Light**           | Light | Clean, balanced, and neutral.          | `#eceef1`, `#4B5EBD`, `#2F7C61` |
-| 📄 **Paper White**     | Light | Print-like and ultra-readable.         | `#ffffff`, `#2D2D2D`, `#3574A3` |
-| 🌈 **Aurora**          | Dark  | Soft, colorful, and relaxing.          | `#1D1C28`, `#E8A2C8`, `#B0E3C5` |
+| 🌅 **Daybreak**        | Light | Gentle, blue-accented, and clear.      | `#eceef1`, `#4493F8`, `#2F7C61` |
+| 📄 **Paper White**     | Light | Print-like and ultra-readable.         | `#ffffff`, `#9650c0`, `#2F7C61` |
 
 ---
 
 ## 🩵 The Harmonia Journey - Complete, but Ever-Evolving
 
-With version **1.5.1**, the **Harmonia core collection** is now considered **feature complete**.
-Each variant - from _Dark_ to _Aurora_ - represents a unique balance of clarity, comfort, and emotion,
-forming a full spectrum designed for long, pleasant coding sessions.
+With version **1.6.3**, the **Harmonia core collection** is now complete with **9 carefully crafted variants**.
+Each theme - from _Dark_ to _Daybreak_ - represents a unique balance of clarity, comfort, and visual personality,
+forming a complete spectrum designed for long, focused coding sessions across all environments and preferences.
 
 Harmonia will continue to receive:
 
@@ -109,17 +111,43 @@ Harmonia was created for developers who want:
 
 ### Harmonia Aurora
 
-- `#b7a0ff` - gentle violet for keywords and logic
+- `#9e8aeb` - gentle violet for keywords and logic
 - `#f7a3a8` - warm rose for HTML/JSX tags
-- `#b0e3c5` - soft mint for strings and class names
-- `#a5d8f7` - cool blue for functions and utilities
-- `#f9d79f` - subtle amber for numbers and constants
+- `#9dd5b8` - soft mint for strings and class names
+- `#92c8ed` - cool blue for functions and utilities
+- `#e6c58a` - subtle amber for numbers and constants
 
 **Highlights:**
 
 - Balanced pastels with clean contrast - colorful yet easy on the eyes.
 - Inspired by sunrise tones: a midpoint between _Dark_ and _Light_.
 - Perfect for relaxed creative coding or front-end design work.
+
+### Harmonia Moonlit
+
+- `#1a1b26` - soft, deep background matching Dark
+- `#d0d0e0` - consistent, balanced foreground text
+- Accents: `#4493F8`, `#94E2D5`, `#a3d9a5` - serene blue-focused palette
+- Structure: `#2c2e40` for dividers and subtle guides
+
+**Highlights:**
+
+- Blue-centric variant with cool, calming tones.
+- Ideal for developers who prefer blue over purple accents.
+- Maintains Dark's restrained aesthetic with a different color temperature.
+
+### Harmonia Daybreak
+
+- `#eceef1` - soft, light background matching Light
+- `#2d2d2d` - clean, readable foreground text
+- Accents: `#4493F8`, `#4AB5B4`, `#2F7C61` - sky-blue and teal palette
+- Structure: `#d0d3d6` for subtle guides and dividers
+
+**Highlights:**
+
+- Light variant with gentle blue accents instead of purple.
+- Clear, bright, and optimized for daytime coding.
+- Complements Moonlit as the light counterpart to its blue-focused philosophy.
 
 Each variant is designed to reduce fatigue, keep code readable, and make
 your editor feel like a calm workspace.
@@ -185,6 +213,25 @@ Official docs: [Customize a Color Theme](https://code.visualstudio.com/docs/conf
 
 This example tweaks line numbers differently for each variant.
 You can use the same method to adjust highlights, borders, or any UI color.
+
+### Optimize for Code Review
+
+If you frequently review pull requests or work with diffs, you can increase the diff highlighting intensity:
+
+```json
+"workbench.colorCustomizations": {
+  "[Harmonia Dark]": {
+    "diffEditor.insertedTextBackground": "#A3D9A525",
+    "diffEditor.removedTextBackground": "#EC727925"
+  },
+  "[Harmonia Light]": {
+    "diffEditor.insertedTextBackground": "#A3D9A530",
+    "diffEditor.removedTextBackground": "#EC727930"
+  }
+}
+```
+
+This makes added/removed code more prominent during code review sessions while preserving Harmonia's restrained aesthetic for normal coding.
 
 ---
 
