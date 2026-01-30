@@ -1,3 +1,27 @@
+## [v1.6.6] - 2026-01-30
+
+🧭 Sidebar Border Definition
+
+Added a subtle `sideBar.border` to all 9 theme variants, replacing the fully transparent value that made it difficult to visually identify the sidebar boundary.
+
+### Added
+
+- **Sidebar border** across all variants - a low-contrast edge that defines the sidebar limit without drawing attention:
+  - **Dark** / **Moonlit** / **High Contrast**: `#2a2b3a` - cool blue-gray, +16 steps from `#1a1b26` / `#0B0C12` backgrounds.
+  - **Noir**: `#231f2e` - warm violet-gray, consistent with Noir's tonal identity.
+  - **Aurora**: `#2d2c3a` - slightly warmer neutral, matching Aurora's palette.
+  - **OLED True Black**: `#1a1a1a` - minimal lift from pure black, preserving OLED efficiency.
+  - **Light** / **Daybreak**: `#d4d6dc` - soft neutral gray, ~18 steps darker than `#eceef1`.
+  - **Paper White**: `#e0e0e0` - gentle warm gray against the `#FFFFFF` background.
+
+### Docs
+
+- Added a **Customizable Properties** reference to the README listing the most common UI color keys you can override per theme (editor, sidebar, tabs, terminal, diffs, and more). Check the [Advanced Usage](README.md#-advanced-usage) section for details.
+
+### Notes
+
+All borders are designed as structural cues - visible enough to define layout boundaries, restrained enough to remain invisible during focused work.
+
 ## [v1.6.5] - 2025-12-21
 
 🔧 Critical Brightness Fixes

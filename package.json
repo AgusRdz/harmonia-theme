@@ -1,26 +1,66 @@
 {
-  "name": "harmonia-theme",
-  "displayName": "Harmonia Theme",
-  "description": "A subtle, carefully crafted theme to reduce visual noise while coding.",
-  "publisher": "AgusRdz",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AgusRdz/harmonia-theme"
-  },
-  "version": "1.6.5",
-  "engines": {
-    "vscode": "^1.50.0"
-  },
   "categories": [
     "Themes"
   ],
-  "scripts": {
-    "build": "node src/generator.js && npm run format",
-    "prebuild": "echo 'Building Harmonia themes...'",
-    "postbuild": "echo 'Build complete! Themes are in themes/ directory'",
-    "format": "prettier --write \"**/*.{js,json}\""
+  "contributes": {
+    "themes": [
+      {
+        "label": "Harmonia Dark",
+        "path": "./themes/harmonia-dark-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Harmonia Light",
+        "path": "./themes/harmonia-light-color-theme.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "Harmonia Noir",
+        "path": "./themes/harmonia-noir-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Harmonia Dark High Contrast",
+        "path": "./themes/harmonia-dark-high-contrast-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Harmonia OLED True Black",
+        "path": "./themes/harmonia-oled-true-black-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Harmonia Paper White",
+        "path": "./themes/harmonia-paper-white-color-theme.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "Harmonia Aurora",
+        "path": "./themes/harmonia-aurora-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Harmonia Moonlit",
+        "path": "./themes/harmonia-moonlit-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Harmonia Daybreak",
+        "path": "./themes/harmonia-daybreak-color-theme.json",
+        "uiTheme": "vs"
+      }
+    ]
   },
+  "description": "A subtle, carefully crafted theme to reduce visual noise while coding.",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vsce": "^2.15.0"
+  },
+  "displayName": "Harmonia Theme",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "icon": "icon.png",
   "keywords": [
     "theme",
     "color-theme",
@@ -35,59 +75,19 @@
     "moonlit",
     "daybreak"
   ],
-  "icon": "icon.png",
   "license": "MIT",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Harmonia Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/harmonia-dark-color-theme.json"
-      },
-      {
-        "label": "Harmonia Light",
-        "uiTheme": "vs",
-        "path": "./themes/harmonia-light-color-theme.json"
-      },
-      {
-        "label": "Harmonia Noir",
-        "uiTheme": "vs-dark",
-        "path": "./themes/harmonia-noir-color-theme.json"
-      },
-      {
-        "label": "Harmonia Dark High Contrast",
-        "uiTheme": "vs-dark",
-        "path": "./themes/harmonia-dark-high-contrast-color-theme.json"
-      },
-      {
-        "label": "Harmonia OLED True Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/harmonia-oled-true-black-color-theme.json"
-      },
-      {
-        "label": "Harmonia Paper White",
-        "uiTheme": "vs",
-        "path": "./themes/harmonia-paper-white-color-theme.json"
-      },
-      {
-        "label": "Harmonia Aurora",
-        "uiTheme": "vs-dark",
-        "path": "./themes/harmonia-aurora-color-theme.json"
-      },
-      {
-        "label": "Harmonia Moonlit",
-        "uiTheme": "vs-dark",
-        "path": "./themes/harmonia-moonlit-color-theme.json"
-      },
-      {
-        "label": "Harmonia Daybreak",
-        "uiTheme": "vs",
-        "path": "./themes/harmonia-daybreak-color-theme.json"
-      }
-    ]
+  "name": "harmonia-theme",
+  "publisher": "AgusRdz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgusRdz/harmonia-theme"
   },
-  "devDependencies": {
-    "prettier": "^3.6.2",
-    "vsce": "^2.15.0"
-  }
+  "scripts": {
+    "build": "node src/generator.js && npm run format",
+    "format": "prettier --write \"**/*.{js,json}\"",
+    "postbuild": "echo 'Build complete! Themes are in themes/ directory'",
+    "prebuild": "echo 'Building Harmonia themes...'"
+  },
+  "type": "module",
+  "version": "1.6.6"
 }
