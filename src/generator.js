@@ -5,7 +5,7 @@
  * Generates all 9 theme JSON files from palettes and token definitions
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from 'fs'
+import { writeFileSync, mkdirSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 
@@ -81,7 +81,7 @@ function writeTheme(theme, filename) {
   // Ensure themes directory exists
   try {
     mkdirSync(themesDir, { recursive: true })
-  } catch (err) {
+  } catch (_err) {
     // Directory already exists
   }
 
@@ -121,7 +121,7 @@ function generateAllThemes() {
     try {
       const theme = generateTheme(palette)
       const filename = getOutputFilename(palette)
-      const outputPath = writeTheme(theme, filename)
+      writeTheme(theme, filename)
 
       console.log(`✓ ${palette.name.padEnd(30)} → ${filename}`)
       successCount++

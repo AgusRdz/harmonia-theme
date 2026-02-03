@@ -53,6 +53,9 @@
   },
   "description": "A subtle, carefully crafted theme to reduce visual noise while coding.",
   "devDependencies": {
+    "eslint": "^9.39.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "prettier": "^3.6.2",
     "vsce": "^2.15.0"
   },
@@ -85,8 +88,20 @@
   "scripts": {
     "build": "node src/generator.js && npm run format",
     "format": "prettier --write \"**/*.{js,json}\"",
+    "lint": "eslint \"src/**/*.js\"",
+    "lint:fix": "eslint \"src/**/*.js\" --fix",
     "postbuild": "echo 'Build complete! Themes are in themes/ directory'",
-    "prebuild": "echo 'Building Harmonia themes...'"
+    "prebuild": "echo 'Building Harmonia themes...'",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
   },
   "type": "module",
   "version": "1.6.7"
