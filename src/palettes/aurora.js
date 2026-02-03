@@ -83,12 +83,13 @@ export const aurora = {
   borderAlt: '#5a5f7a', // Alternative borders
   borderLight: '#1D2A2D', // Light borders (checkboxes)
   borderSeparator: '#26243A', // Menu separators
+  sidebarBorder: '#2d2c3a', // Sidebar border
 
   // Selection & highlights
   selection: '#2F2E45', // Editor selection (softer purple-tint)
   selectionInactive: '#272636',
-  listHover: '#1e1d2a', // Much darker, more subtle
-  listActive: '#1e1d2a', // Much darker, more subtle
+  listHover: '#24232f', // Subtle but visible
+  listActive: '#24232f', // Subtle but visible
 
   // Special states
   scrollbar: {

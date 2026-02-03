@@ -1,3 +1,17 @@
+## [v1.6.7] - 2026-02-02
+
+🔍 Aurora List Selection Visibility Fix
+
+Hot-fix release addressing insufficient contrast in Aurora's file tree selections.
+
+### Fixed
+
+- **Aurora List Selection**: Increased `list.activeSelectionBackground` and `list.hoverBackground` from `#1e1d2a` to `#24232f` to restore proper visibility of selected files in the tree view. The v1.6.5 brightness reduction went too far for Aurora, making selections nearly invisible against the `#1d1c28` background. The new value provides +7 RGB units of contrast while maintaining Aurora's soft, pastel aesthetic.
+
+### Notes
+
+All other theme variants (Dark, Noir, Moonlit, OLED, High Contrast, Light, Daybreak, Paper White) maintain proper selection contrast and require no changes.
+
 ## [v1.6.6] - 2026-01-30
 
 🧭 Sidebar Border Definition

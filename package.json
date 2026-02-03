@@ -89,5 +89,5 @@
     "prebuild": "echo 'Building Harmonia themes...'"
   },
   "type": "module",
-  "version": "1.6.6"
+  "version": "1.6.7"
 }

@@ -83,6 +83,7 @@ export const oled = {
   borderAlt: '#7C82A3', // Alternative borders
   borderLight: '#1B1F2E', // Light borders
   borderSeparator: '#0A0B0E', // Menu separators
+  sidebarBorder: '#1a1a1a', // Sidebar border
 
   // Selection & highlights
   selection: '#1A2A3B', // Editor selection (very subtle blue)

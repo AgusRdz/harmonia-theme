@@ -84,6 +84,7 @@ export const daybreak = {
   borderAlt: '#B4B8C2', // Alternative borders
   borderLight: '#D5DBE9', // Light borders
   borderSeparator: '#D9DEE8', // Menu separators
+  sidebarBorder: '#d4d6dc', // Sidebar border
 
   // Selection & highlights
   selection: '#D5DBE6', // Editor selection (softer)

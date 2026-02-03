@@ -319,7 +319,7 @@ export function generateColors(p) {
 
     // Sidebar
     'sideBar.background': p.bg.base,
-    'sideBar.border': '#00000000',
+    'sideBar.border': p.sidebarBorder || '#00000000',
     'sideBar.foreground': p.fg.base,
     'sideBarSectionHeader.background': p.bg.base,
     'sideBarSectionHeader.border': p.bg.base,

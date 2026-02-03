@@ -84,6 +84,7 @@ export const paperWhite = {
   borderAlt: '#9AA1AE', // Alternative borders
   borderLight: '#D9DEE8', // Light borders
   borderSeparator: '#D9DEE8', // Menu separators
+  sidebarBorder: '#e0e0e0', // Sidebar border
 
   // Selection & highlights
   selection: '#E0E7F0', // Editor selection (softer, less blue)

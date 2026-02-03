@@ -83,6 +83,7 @@ export const noir = {
   borderAlt: '#5a5f7a', // Alternative borders (stronger)
   borderLight: '#2A2A38', // Light borders (checkboxes)
   borderSeparator: '#2A2835', // Menu separators
+  sidebarBorder: '#231f2e', // Sidebar border
 
   // Selection & highlights
   selection: '#2B2440', // Editor selection (softer purple-tint)

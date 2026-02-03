@@ -83,6 +83,7 @@ export const highContrast = {
   borderAlt: '#7C82A3', // Alternative borders
   borderLight: '#1E2230', // Light borders
   borderSeparator: '#2A2A2A', // Menu separators
+  sidebarBorder: '#2a2b3a', // Sidebar border
 
   // Selection & highlights
   selection: '#354270', // Editor selection (softer purple-blue)

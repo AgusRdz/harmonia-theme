@@ -83,6 +83,7 @@ export const dark = {
   borderAlt: '#5a5f7a', // Alternative borders (stronger)
   borderLight: '#202438', // Light borders (checkboxes)
   borderSeparator: '#2A2E45', // Menu separators
+  sidebarBorder: '#2a2b3a', // Sidebar border
 
   // Selection & highlights
   selection: '#283650', // Editor selection (softer)
